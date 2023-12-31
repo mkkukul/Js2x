@@ -1,83 +1,83 @@
-/* Google Font'tan 'Poppins' yazı tipini import et */
+/* Google Font'tan 'Poppins' yazı tipini projeye dahil et */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
-/* Temel stil tanımlamaları */
+/* Temel stil tanımlamaları için tüm elementlere varsayılan değerler atanır */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* Sayfa arka plan rengini ayarla */
+/* Sayfa arka plan rengini belirler */
 body{
     background-color: #338cf4;
 }
 
-/* Ana konteyner stilini tanımla */
+/* Ana içerik kutusunun (container) genel stilini belirler */
 .container{
     background-color: #fff;
     width: 90vmin;
     padding: 50px 30px;
     position: absolute;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%); /* Ortalama ve merkezleme için */
     left: 50%;
     top: 50%;
-    border-radius: 10px;
-    box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2);
+    border-radius: 10px; /* Kenar yumuşatma */
+    box-shadow: 0 25px 50px rgba(7, 20, 35, 0.2); /* Kutuya hafif bir gölge ekler */
 }
 
-/* Seçeneklerin genel stilini tanımla */
+/* Seçenekler bölümünün stilini tanımlar */
 .options{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 15px;
+    flex-wrap: wrap; /* Öğeleri alt alta sıralar */
+    align-items: center; /* Öğeleri dikey olarak hizalar */
+    gap: 15px; /* Öğeler arası boşluk */
 }
 
-/* Butonların genel stilini tanımla */
+/* Genel buton stilini belirler */
 button{
     width: 28px;
     height: 28px;
-    display: grid;
-    place-items: center;
-    border-radius: 3px;
+    display: grid; /* Ikonları merkeze almak için */
+    place-items: center; /* Ikonları merkeze alır */
+    border-radius: 3px; /* Kenar yumuşatma */
     border: none;
-    background-color: #fff;
-    outline: none;
-    color: #020929;
-    cursor: pointer;
+    background-color: #fff; /* Arka plan rengi */
+    outline: none; /* Odaklanma stilini kaldırır */
+    color: #020929; /* Yazı rengi */
+    cursor: pointer; /* Üzerine geldiğinde imlecin el tipinde olmasını sağlar */
 }
 
-/* Seçim kutularının genel stilini tanımla */
+/* Seçim kutularının genel stilini tanımlar */
 select{
     padding: 7px;
-    border: 1px solid#020929;
-    border-radius: 3px;
-    cursor: pointer;
+    border: 1px solid#020929; /* Kenar çizgisi stilini belirler */
+    border-radius: 3px; /* Kenar yumuşatma */
+    cursor: pointer; /* Üzerine geldiğinde imlecin el tipinde olmasını sağlar */
 }
 
-/* Yazı tipini 'Poppins' olarak ayarla */
+/* Yazı tipini 'Poppins' olarak tanımlar */
 .options label,
 .options select{
     font-family: 'Poppins', sans-serif;
 }
 
-/* Renk seçicilerin stilini tanımla */
+/* Renk seçicilerin stilini belirler */
 input[type="color"]::-webkit-color-swatch, 
 input[type="color"]::-moz-color-swatch{
-    border-radius: 15px;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929;
+    border-radius: 15px; /* Kenar yumuşatma */
+    box-shadow: 0 0 0 2px #fff, 0 0 0 3px #020929; /* Renk seçici çerçevesi */
 }
 
-/* Metin giriş alanının stilini tanımla */
+/* Metin giriş alanının genel stilini tanımlar */
 #text-input{
     margin-top: 10px;
-    border: 1px solid #ddd;
-    padding: 20px;
-    height: 50vh;
+    border: 1px solid #ddd; /* Kenar çizgisi stilini belirler */
+    padding: 20px; /* İçerikten kenarlara uzaklık */
+    height: 50vh; /* Yükseklik ayarı */
 }
 
-/* Aktif öğelerin stilini tanımla */
+/* Aktif öğelerin stilini belirler */
 .active{
-    background-color: #e0e9ff;
+    background-color: #e0e9ff; /* Aktif öğe için arka plan rengi */
 }
