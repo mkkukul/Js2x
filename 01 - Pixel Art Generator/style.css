@@ -42,4 +42,6 @@ button{
     padding: 5px;
     color: #fff;
 }
-input[type="color"]{}
+input[type="color"]{
+    -webkit-appearance: none;
+}
