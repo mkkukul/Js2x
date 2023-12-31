@@ -1,15 +1,23 @@
-*{
+/* Global stil tanımlamaları:
+   - Tüm elementlerin dış boşlukları, iç boşlukları ve kutu modeli tanımlanır.
+   - Varsayılan font ailesi 'monospace' olarak ayarlanır. */
+   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: monospace;
 }
 
-body{
+/* Sayfa genel arka plan rengini yeşil (#43a047) olarak belirtir. */
+body {
     background-color: #43a047;
 }
 
-.wrapper{
+/* Ana içerik kutusunu merkezi hale getirir:
+   - Beyaz arka plan rengi, yüzde 80 viewport genişliği.
+   - Pozisyonu merkeze almak için 'transform' özelliği kullanılır.
+   - Diğer stil özellikleri: dolgu, yuvarlatılmış köşeler. */
+.wrapper {
     background-color: #fff;
     width: 80vmin;
     position: absolute;
@@ -20,24 +28,29 @@ body{
     border-radius: 8px;
 }
 
-label{
+/* Etiketlerin blok düzende gösterilmesini sağlar. */
+label {
     display: block;
 }
 
-span{
+/* Küçük metin stilini belirtir: 22px font boyutu ve belirli bir pozisyon ayarı. */
+span {
     position: relative;
     font-size: 22px;
     bottom: -1px;
 }
 
-.opt-wrapper{
+/* Seçeneklerin yatay düzende sıralanmasını ve aralarında boşluk bırakılmasını sağlar. */
+.opt-wrapper {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     gap: 10px;
 }
 
-button{
+/* Buton özelliklerini tanımlar:
+   - Arka plan rengi, kenarlık, dolgu, yazı rengi ve yuvarlatılmış köşeler. */
+button {
     background-color: #43a047;
     border: none;
     border-radius: 5px;
@@ -45,7 +58,10 @@ button{
     color: #fff;
 }
 
-input[type="color"]{
+/* Renk seçici (color input) stilini özelleştirir:
+   - Tarayıcıya özgü varsayılan stilleri sıfırlar.
+   - Belirli bir boyut ve renk tanımlar. */
+input[type="color"] {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -56,27 +72,28 @@ input[type="color"]{
     cursor: pointer;
 }
 
-input[type="color"]::-webkit-color-swatch{
-    border-radius: 8px;
-    border: 4px solid #000;
-}
-input[type="color"]::-moz-color-swatch{
+/* Tarayıcıya özgü renk seçici stilini belirli bir şekilde ayarlar. */
+input[type="color"]::-webkit-color-swatch,
+input[type="color"]::-moz-color-swatch {
     border-radius: 8px;
     border: 4px solid #000;
 }
 
-.gridCol{
+/* Grid sisteminin kolonlarını ve satırlarını temsil eden bazı stil özellikleri. */
+.gridCol {
     height: 1em;
     width: 1em;
     border: 1px solid #ddd;
 }
 
-.gridRow{
+/* Grid satırlarını yatay olarak sıralar. */
+.gridRow {
     display: flex;
 }
 
-@media only screen and (max-width: 768px){
-    .gridCol{
+/* Ekran genişliği 768px veya daha az olduğunda grid kolonlarının boyutunu küçültür. */
+@media only screen and (max-width: 768px) {
+    .gridCol {
         height: 0.8em;
         width: 0.8em;
     }
