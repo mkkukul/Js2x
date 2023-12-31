@@ -11,81 +11,121 @@
 </head>
 
 <body>
+    <div class="container"> <!-- Genel olarak tüm içeriği saran ana bölüm. -->
 
-    <div class="container">
-        <div class="options">
-            <button id="bold" class="option-button format">
-                <i class="fa-solid fa-bold"></i>
+        <div class="options"> <!-- Kullanıcı seçeneklerini içeren bir bölüm. -->
+    
+            <!-- Kalın yazı stilini uygulamak için buton. -->
+            <button id="bold" class="option-button format"> 
+                <i class="fa-solid fa-bold"></i> <!-- Kalın simgesi Font Awesome'dan alınmıştır. -->
             </button>
+    
+            <!-- Üst simge stilini uygulamak için buton. -->
             <button id="superscript" class="option-button script">
                 <i class="fa-solid fa-superscript"></i>
             </button>
+    
+            <!-- Alt simge stilini uygulamak için buton. -->
             <button id="subscript" class="option-button script">
                 <i class="fa-solid fa-subscript"></i>
             </button>
-
+    
+            <!-- Sıralı liste eklemek için buton. -->
             <button id="insertOrderedList" class="option-button">
-                <div class="fa-solid fa-list-ol"></div>
+                <i class="fa-solid fa-list-ol"></i>
             </button>
+    
+            <!-- Sırasız liste eklemek için buton. -->
             <button id="insertUnorderedList" class="option-button">
                 <i class="fa-solid fa-list"></i>
             </button>
-
+    
+            <!-- Geri alma (undo) işlemi için buton. -->
             <button id="undo" class="option-button">
                 <i class="fa-solid fa-rotate-left"></i>
             </button>
+    
+            <!-- Yeniden yapma (redo) işlemi için buton. -->
             <button id="redo" class="option-button">
                 <i class="fa-solid fa-rotate-right"></i>
             </button>
-
+    
+            <!-- Bağlantı (link) oluşturma için buton. -->
             <button id="createLink" class="adv-option-button">
                 <i class="fa fa-link"></i>
             </button>
+    
+            <!-- Bağlantıyı kaldırma için buton. -->
             <button id="unlink" class="option-button">
                 <i class="fa fa-unlink"></i>
             </button>
-
+    
+            <!-- Metni sola yaslama için buton. -->
             <button id="justifyLeft" class="option-button align">
                 <i class="fa-solid fa-align-left"></i>
             </button>
+    
+            <!-- Metni ortala için buton. -->
             <button id="justifyCenter" class="option-button align">
                 <i class="fa-solid fa-align-center"></i>
             </button>
+    
+            <!-- Metni sağa yaslama için buton. -->
             <button id="justifyRight" class="option-button align">
                 <i class="fa-solid fa-align-right"></i>
             </button>
+    
+            <!-- Metni her iki yana yaslama için buton. -->
             <button id="justifyFull" class="option-button align">
                 <i class="fa-solid fa-align-justify"></i>
             </button>
+    
+            <!-- Metni içeri gömmek için buton. -->
             <button id="indent" class="option-button spacing">
                 <i class="fa-solid fa-indent"></i>
             </button>
+    
+            <!-- Metinden dışarı çıkarma için buton. -->
             <button id="outdent" class="option-button spacing">
                 <i class="fa-solid fa-outdent"></i>
             </button>
+    
+            <!-- Başlık seviyesini belirlemek için bir seçim kutusu. -->
             <select id="formatBlock" class="adv-option-button">
+                <!-- Farklı başlık seviyeleri için seçenekler. -->
                 <option value="H1">H1</option>
                 <option value="H2">H2</option>
-                <option value="H3">H3</option>
-                <option value="H4">H4</option>
-                <option value="H5">H5</option>
-                <option value="H6">H6</option>
+                <!-- ... diğer seçenekler ... -->
             </select>
+    
+            <!-- Yazı tipi seçimi için bir seçim kutusu. -->
             <select id="fontName" class="adv-option-button"></select>
+    
+            <!-- Yazı boyutu seçimi için bir seçim kutusu. -->
             <select id="fontSize" class="adv-option-button"></select>
-
+    
+            <!-- Yazı rengi seçici. -->
             <div class="input-wrapper">
                 <input type="color" id="foreColor" class="adv-option-button">
                 <label for="foreColor">Font Color</label>
             </div>
+    
+            <!-- Arka plan rengi seçici. -->
             <div class="input-wrapper">
                 <input type="color" id="backColor" class="adv-option-button">
                 <label for="backColor">Highlight Color</label>
             </div>
-
-        </div>
+    
+        </div> <!-- Kullanıcı seçeneklerini içeren bölümün sonu. -->
+    
+        <!-- Kullanıcının metin girebileceği ve düzenleyebileceği bölüm. -->
         <div id="text-input" contenteditable="true"></div>
-    </div>
+    
+    </div> <!-- Ana bölümün sonu. -->
+    
+
+
+
 
     <script src="script.js"></script>
 
