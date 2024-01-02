@@ -1,1 +1,1 @@
-document.getElementById("count")
+document.getElementById("count").innerText
