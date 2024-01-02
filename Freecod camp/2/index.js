@@ -1,1 +1,1 @@
-document.getElementById("count").innerText = 
+document.getElementById("count").innerText = 5
