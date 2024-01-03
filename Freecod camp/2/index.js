@@ -14,12 +14,17 @@
 // console.log(myDogAge)
 // let count = 5
 // count = 3
-let count = 5
-count = count + 1  // 1
+// let count = 5
+// count = count + 1  // 1
 // count = 3
 // count = 1
-console.log(count)
+// console.log(count)
 
 let bonusPoints = 50
-bonusPoints = 100
-bonusPoints = 25
+console.log(bonusPoints)
+bonusPoints = bonusPoints+ 50
+console.log(bonusPoints)
+bonusPoints = bonusPoints- 75
+console.log(bonusPoints)
+bonusPoints = bonusPoints+45
+console.log(bonusPoints)
