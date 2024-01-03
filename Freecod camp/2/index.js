@@ -12,5 +12,5 @@
 // let humanDogRatio = 7
 // let myDogAge = myAge * humanDogRatio
 // console.log(myDogAge)
-let count = 5
-count = 3
+// let count = 5
+// count = 3
