@@ -1,6 +1,8 @@
 // document.getElementById("count").innerText = 5
+let firstBatch = 5
+let secondBatch = 7
+let count = firstBatch
 
-let count = 0
 // console.log(count)
 // console.log(myAge)
 // let myAge = 35
