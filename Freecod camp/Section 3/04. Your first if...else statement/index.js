@@ -11,6 +11,6 @@ if (age < 21) {
 } else if (age ===21){
     console.log("Wohoo! You've got Blackjack🤑")
 
-}else if (sum> 21) {
+}else if (age> 21) {
     console.log("You're out of the game!🥹")
 }
