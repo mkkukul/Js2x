@@ -7,9 +7,9 @@ let age = 22
 // else            -> "Welcome!"
 
 if (age < 21) {
-    console.log("Do you want to draw a new card?😐")
+    console.log("You can not enter the club!😐")
 } else if (age ===21){
-    console.log("Wohoo! You've got Blackjack🤑")
+    console.log("Welcome")
 
 }else if (age> 21) {
     console.log("You're out of the game!🥹")
