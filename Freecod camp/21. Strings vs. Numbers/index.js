@@ -1,10 +1,16 @@
-let name = 42
-let greeting = "Hi, my name is "
-let myGreeting = greeting + name
+// let name = 42
+// let greeting = "Hi, my name is "
+// let myGreeting = greeting + name
 // console.log(myGreeting)
 
-// let points = 4
+// let points = "4"
 // let bonusPoints = "10"
+// let toplam = points+bonusPoints
+// console.log(toplam)
+// function toplam(){
+    // toplam = points + bonusPoints
+    // console.log(toplam)
+// }
 
 // let totalPoints = points + bonusPoints
 
