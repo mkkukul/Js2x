@@ -6,7 +6,7 @@ let isAlive = true
 let message = ""
 
 // 1. Store the message-el paragraph in a variable called messageEl
-let message = document.getElementById("message-el")
+let messageEl = document.getElementById("message-el")
 console.log(messageEl)
 function startGame() {
     if (sum <= 20) {
