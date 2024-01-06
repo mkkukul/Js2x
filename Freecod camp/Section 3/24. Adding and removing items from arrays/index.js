@@ -26,7 +26,8 @@ let messages = [
 ];
 
 let newMessage = "Same here!";
-messages.push(newMessage); // Yeni mesajı diziye ekliyoruz.
+messages.push(newMessage); 
+// Yeni mesajı diziye ekliyoruz.
 
 console.log(messages);
 
