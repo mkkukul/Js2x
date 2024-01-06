@@ -31,7 +31,8 @@ messages.push(newMessage); // Yeni mesajı diziye ekliyoruz.
 console.log(messages);
 
 // Diziden son öğeyi kaldırmak için:
-messages.pop(); // Bu, dizinin son öğesini kaldırır.
+messages.pop(); 
+// Bu, dizinin son öğesini kaldırır.
 
 console.log(messages); 
 // Son öğenin kaldırıldığını görmek için diziyi tekrar yazdırıyoruz.
