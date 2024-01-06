@@ -11,7 +11,8 @@ let featuredPosts = [
 let sections = [
     "Experience",
     "Education",
-    "Sciene"
+    "Sciene",
+    "Skills"
 
 ]
 
