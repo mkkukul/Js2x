@@ -1,6 +1,6 @@
 let cards = [7, 4]
 cards.push(6)
-console.log("hello")
+// console.log("hello")
 // console.log(cards)
 
 // Push the newMessage to the messages array, and then log out the array
@@ -12,6 +12,8 @@ let messages = [
 ]
 
 let newMessage = "Same here!"
+function(newMessage){
+    newMessage = newMessage + console.log(messages[1])
+    console.log(newMessage)
 
-
-
+}
