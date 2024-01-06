@@ -13,7 +13,8 @@ let messages = [
 
 let newMessage = "Same here!"
 function(newMessage){
-    newMessage = newMessage + console.log(messages[1])
+    newMessage = newMessage + messages[1]
     console.log(newMessage)
 
 }
+modifyMessage()
