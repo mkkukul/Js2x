@@ -6,8 +6,16 @@ let featuredPosts = [
     "I've just relaunched my portfolio"//2
 ]
 
-console.log(featuredPosts[2])
-let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People counter for Norstat"]
+// console.log(featuredPosts[2])
+let experience = [
+    "CEO at Scrimba", 
+    "Frontend developer at Xeneta",
+    "People counter for Norstat"
+]
+console.log(experience[1])
+console.log(experience[2])
+console.log(experience[0])
+
 
 // Make the following appear in the console:
 // Frontend developer at Xeneta
