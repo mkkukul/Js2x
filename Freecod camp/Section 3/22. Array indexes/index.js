@@ -6,7 +6,7 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 
-
+featuredPosts[0]
 let experience = ["CEO at Scrimba", "Frontend developer at Xeneta", "People counter for Norstat"]
 
 // Make the following appear in the console:
