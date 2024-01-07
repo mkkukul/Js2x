@@ -1,7 +1,7 @@
 let firstCard = 10
 let secondCard = 4
 // 1. Create a new array - cards - that contains firstCard and secondCard
-let cards = [firstCard, secondCard] // kartların arrayli gösterimini yaptık
+let cards = [firstCard, secondCard] // kartların arrayli hallerini yazarak gösterimini yaptık
 let sum = firstCard + secondCard
 let hasBlackJack = false
 let isAlive = true
