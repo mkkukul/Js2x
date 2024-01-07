@@ -16,3 +16,6 @@ console.log(messages)
     // console.log(messages)
 // }
 
+for( let i= 0; i<5; i+=1){
+    console.log(messages[i])
+}
