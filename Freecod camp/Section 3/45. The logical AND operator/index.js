@@ -1,7 +1,7 @@
 let hasCompletedCourse = false
 let givesCertificate = true
 
-if (hasCompletedCourse === true) {
+if (hasCompletedCourse === true &&) {
     if (givesCertificate === true) {
         generateCertificate()
     }
