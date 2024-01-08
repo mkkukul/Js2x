@@ -11,14 +11,20 @@ let cardsEl = document.getElementById("cards-el")
 
 
 function getRandomCard() {
-    // if 1     -> return 11
-    // if 11-13 -> return 10
-    let randomNumber = Math.floor( Math.random()*13 ) + 1
+    // Math.random() 0 ile 1 arasında rastgele bir ondalıklı sayı döndürür.
+    // Bu değeri 13 ile çarpıp Math.floor ile en yakın tam sayıya yuvarlayarak 1 ile 13 arasında bir rastgele sayı elde ediyoruz.
+    let randomNumber = Math.floor(Math.random() * 13) + 1;
+
+    // Eğer rastgele sayı 11, 12 ya da 13 ise kartın değeri 10'dur.
     if (randomNumber > 10) {
         return 10;
-    } else if (randomNumber === 1){
+    } 
+    // Eğer rastgele sayı 1 ise kartın değeri 11'dir.
+    else if (randomNumber === 1) {
         return 11;
-    } else {
+    } 
+    // Diğer durumlarda rastgele sayı direkt olarak kartın değeridir.
+    else {
         return randomNumber;
     }
 }
