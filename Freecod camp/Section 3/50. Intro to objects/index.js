@@ -11,7 +11,9 @@ let course = {
     tags: ["html", "css"]
 }
 
+console.log(course.tags)
+console.log( course["tags"] )
+// !console.log(course.tags) ifadesinde, course objesinin tags özelliğine doğrudan erişim sağlanmıştır.
 
-console.log( course.tags )
-
+//?console.log(course["tags"]) ifadesinde ise köşeli parantez notasyonu kullanılarak course objesinin "tags" özelliğine erişim sağlanmıştır.
 
