@@ -1,0 +1,23 @@
+Bu kod, basit bir kart oyununu temsil ediyor gibi görünüyor. İşte kodun ne yaptığına dair bir açıklama:
+
+1. **Oyuncu Bilgileri**: 
+    - `player` adında bir obje tanımlanıyor ve bu objede bir oyuncunun adı ve çipleri (chips) tutuluyor.
+
+2. **Değişkenler**:
+    - `cards`: Oyuncunun sahip olduğu kartların bir listesi.
+    - `sum`: Oyuncunun kartlarının toplam değeri.
+    - `hasBlackJack`: Oyuncunun 21'e ulaşıp ulaşmadığını kontrol eden bir bayrak.
+    - `isAlive`: Oyuncunun oyunun dışında olup olmadığını kontrol eden bir bayrak.
+    - `message`: Oyuncuya verilecek mesajı tutan bir string.
+    - `messageEl`, `sumEl`, `cardsEl`, ve `playerEl`: HTML'de belirtilen elementlere erişim sağlayan değişkenler.
+
+3. **Fonksiyonlar**:
+    - `getRandomCard()`: Rastgele bir kart değeri döndürür.
+    - `startGame()`: Oyunu başlatır, oyuncuya ilk iki kartı verir ve toplamı hesaplar.
+    - `renderGame()`: Oyuncunun kartlarını, toplamını ve mesajını ekrana yansıtan fonksiyon.
+    - `newCard()`: Eğer oyuncu oyunun dışında değilse ve 21'e ulaşmadıysa yeni bir kart çeker.
+
+4. **Elementlere Erişim**: 
+    - `playerEl`, `messageEl`, `sumEl`, ve `cardsEl` değişkenleri ile HTML'de belirtilen elementlere erişim sağlanıyor. Bu elementlerin içerikleri JavaScript tarafından güncelleniyor.
+
+Sonuç olarak, bu kod basit bir kart oyununu simgeliyor. Oyuncu başladığında kartları alır ve toplamı 21'e ulaşmadıkça kart çeker. Eğer toplam 21'e ulaşırsa "Blackjack" mesajı alır, 21'den büyükse "Oyun dışındasınız" mesajı alır.
