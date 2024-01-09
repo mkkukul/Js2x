@@ -6,6 +6,10 @@ let hasHintsLeft = false
 if (false ===false ) {
     showSolution()
 }
+// if (hasSolvedChallenge === false &&& hasHintsLeft === false){
+    // showSolution()
+// }
+
 function showSolution() {
     console.log("Showing the solution....")
 }
