@@ -33,3 +33,19 @@ if (hasCompletedCourse === true && givesCertificate === true) {
 function generateCertificate() {
     console.log("Generating certificate....");
 }
+// hasCompletedCourse adında bir değişken oluşturulur ve bu değişken true değerine sahiptir.
+let hasCompletedCourse = true;
+
+// givesCertificate adında bir başka değişken oluşturulur ve bu değişken de true değerine sahiptir.
+let givesCertificate = true;
+
+// if şartı doğrudur (true === true), bu nedenle içerideki kod bloğuna girilir.
+if (true === true) {
+    // generateCertificate() fonksiyonu çağrılır.
+    generateCertificate();
+}
+
+// generateCertificate adında bir fonksiyon tanımlanır. Bu fonksiyon, "Generating certificate...." mesajını konsola yazdırır.
+function generateCertificate() {
+    console.log("Generating certificate....");
+}
