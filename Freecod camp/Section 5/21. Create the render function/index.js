@@ -1,18 +1,21 @@
-let myLeads = ["www.awesomelead.com", "www.epiclead.com", "www.greatlead.com"]
-const inputEl = document.getElementById("input-el")
-const inputBtn = document.getElementById("input-btn")
-const ulEl = document.getElementById("ul-el")
+let myLeads = []; // //! myLeads dizisini boş olarak tanımlayın.
+const inputEl = document.getElementById("input-el"); // //! input-el ID'li HTML öğesini seçin ve inputEl değişkenine atayın.
+const inputBtn = document.getElementById("input-btn"); // //! input-btn ID'li HTML öğesini seçin ve inputBtn değişkenine atayın.
+const ulEl = document.getElementById("ul-el"); // //! ul-el ID'li HTML öğesini seçin ve ulEl değişkenine atayın.
 
-inputBtn.addEventListener("click", function() {
-    myLeads.push(inputEl.value)
-    console.log(myLeads)
-    // 2. Call the renderLeads() function
-})
+inputBtn.addEventListener("click", function() { // //! inputBtn öğesine tıklama olayı ekleyin ve aşağıdaki kodları çalıştırın.
+    myLeads.push(inputEl.value); // //! inputEl'in değerini myLeads dizisine ekleyin.
+    console.log(myLeads); // //! myLeads dizisini konsola yazdırın.
+    
+    renderLeads(); // //! renderLeads fonksiyonunu çağırın.
+});
 
-// 1. Wrap the code below in a renderLeads() function
-let listItems = ""
-for (let i = 0; i < myLeads.length; i++) {
-    listItems += "<li>" + myLeads[i] + "</li>"
+function renderLeads() { 
+    // //! renderLeads adında bir fonksiyon tanımlayın.
+    let listItems = ""; 
+    // //! listItems adında boş bir string değişkeni oluşturun.
+    for (let i = 0; i < myLeads.length; i++) { // //! myLeads dizisindeki her öğe için bir döngü başlatın.
+        listItems += "<li>" + myLeads[i] + "</li>"; // //! Her bir öğeyi listItems stringine ekleyin.
+    }
+    ulEl.innerHTML = listItems; // //! ulEl'in innerHTML özelliğini listItems stringiyle güncelleyin.
 }
-ulEl.innerHTML = listItems
-
