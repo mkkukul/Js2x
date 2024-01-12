@@ -1,9 +1,19 @@
 {
-    "manifest_version":3 ,
+    // Manifest dosyasının format sürümü belirtilir.
+    "manifest_version": 3, // Örnek olarak 3 sürümü belirtilmiştir.
+
+    // Uygulamanın veya eklentinin sürüm numarası.
     "version": "1.1",
+
+    // Uygulamanın veya eklentinin adı.
     "name": "Leads tracker",
+
+    // Eklentinin veya uygulamanın etkileşimli özelliklerini belirtir.
     "action": {
-        "default_popup": "index.html",
-        "default_icon": "icon.png"
+        // Kullanıcının belirli bir eylemi gerçekleştirdiğinde gösterilecek popup'ın adı.
+        "default_popup": "index.html", // index.html dosyası popup olarak kullanılacaktır.
+
+        // Eklentinin veya uygulamanın varsayılan simgesinin dosya yolu.
+        "default_icon": "icon.png" // icon.png dosyası simge olarak kullanılacaktır.
     }
 }
