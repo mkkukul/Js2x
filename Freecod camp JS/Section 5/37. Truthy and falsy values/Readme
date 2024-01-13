@@ -21,3 +21,35 @@ console.log("Another Result:", anotherResult); // Output: Infinity, fakat NaN de
 if (isNaN(result)) {
     console.log("Result is not a number!"); // NaN'ı kontrol ediyoruz.
 }
+// 1. Null: Bilinçli bir boş değerdir. Genellikle bir değişkenin veya nesnenin bilinçli olarak boş olduğunu belirtmek için kullanılır.
+let kullanici = null; // Burada, bir kullanıcı bilgisi oluşturduk, ancak henüz bilgileri tanımlamadık.
+console.log("Kullanıcı Bilgisi:", kullanici); // Ekrana "Kullanıcı Bilgisi: null" yazdırılır.
+
+// 2. Undefined: Bir değişken atanmadığında veya bir nesnenin özelliği tanımlanmadığında bu değeri alır.
+let yas; // Yaş değişkenini tanımladık, ancak herhangi bir değer atamadık.
+console.log("Yaş Değeri:", yas); // Ekrana "Yaş Değeri: undefined" yazdırılır.
+
+// 3. NaN (Not-a-Number): Matematiksel bir işlem geçersiz olduğunda bu değeri alır.
+let urunFiyati = "on" - 5; // "on" sayısal bir değil, bu nedenle geçersiz bir işlem yapılıyor.
+console.log("Ürün Fiyatı:", urunFiyati); // Ekrana "Ürün Fiyatı: NaN" yazdırılır.
+
+// Kullanıcı bilgilerini kontrol edelim.
+if (kullanici === null) {
+    console.log("Kullanıcı bilgisi şu anda tanımsızdır."); // Eğer kullanıcı bilgisi null ise bu mesajı yazdır.
+} else {
+    console.log("Kullanıcı adı:", kullanici.ad); // Kullanıcı adını ekrana yazdır.
+}
+
+// Yaş bilgisini kontrol edelim.
+if (yas === undefined) {
+    console.log("Yaş bilgisi belirtilmemiştir."); // Eğer yaş bilgisi atanmamışsa bu mesajı yazdır.
+} else {
+    console.log("Yaş:", yas); // Yaş bilgisini ekrana yazdır.
+}
+
+// Ürün fiyatını kontrol edelim.
+if (isNaN(urunFiyati)) {
+    console.log("Geçerli bir ürün fiyatı belirtilmemiştir."); // Eğer ürün fiyatı geçerli değilse bu mesajı yazdır.
+} else {
+    console.log("Ürün Fiyatı:", urunFiyati); // Ürün fiyatını ekrana yazdır.
+}
