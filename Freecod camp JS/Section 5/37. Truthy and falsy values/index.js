@@ -1,10 +1,10 @@
-// const credits = 0
-
-// if (credits) {
-//     console.log("Let's play 🎰")
-// } else {
-//     console.log("Sorry, you have no credits 😭")
-// }
+const credits = `12`
+// 
+if (credits> 0) {
+    console.log("Let's play 🎰")
+} else {
+    console.log("Sorry, you have no credits 😭")
+}
 
 // truthy
 // falsy
@@ -16,13 +16,13 @@
 // undefined -> how JavaScript signalizes emptiness
 // NaN
 
-let currentViewers = null
-
-currentViewers = ["jane", "nick"]
-
-currentViewers = null
-
-if (currentViewers) {
+// let currentViewers = null
+// 
+// currentViewers = ["jane", "nick"]
+// 
+// currentViewers = null
+// 
+// if (currentViewers) {
     // do something , e.g. notify the live streamers
-    console.log("we have viewers")
-}
+    // console.log("we have viewers")
+// }
