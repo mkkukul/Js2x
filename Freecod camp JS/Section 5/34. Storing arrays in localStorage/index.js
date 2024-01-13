@@ -1,10 +1,15 @@
-let myLeads = ["www.awesomelead.com"]
-myLeads = JSON.stringify(myLeads)
+let myLeads = `["www.awesomelead.com"]`
+// myLeads = JSON.stringify(myLeads)
 // myLeads = JSON.parse(myLeads)
-console.log(typeof myLeads)
+// console.log(typeof myLeads)
 // myLeads.push("www.epiclead.com")
+// console.log(myLeads)
 
-console.log(myLeads)
+myLeadsets = JSON.parse(myLeads)
+myLeadsets.push("www.epiclead.com")
+myLeadsets = JSON.stringify(myLeads)
+console.log(typeof myLeads)
+
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
