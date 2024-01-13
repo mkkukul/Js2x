@@ -51,6 +51,7 @@ if (yas === undefined) {
     console.log("Yaş:", yas); // Yaş bilgisini ekrana yazdır.
 }
 
+
 // Ürün fiyatını kontrol edelim.
 if (isNaN(urunFiyati)) {
     console.log("Geçerli bir ürün fiyatı belirtilmemiştir."); // Eğer ürün fiyatı geçerli değilse bu mesajı yazdır.
