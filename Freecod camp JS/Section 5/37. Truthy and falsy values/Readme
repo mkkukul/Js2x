@@ -1,0 +1,23 @@
+// 1. null Örneği
+let person = null; // Person nesnesini bilinçli olarak boş olarak tanımladık.
+console.log("Person:", person); // Output: null
+
+// 2. undefined Örneği
+let name; // Name değişkenini tanımladık, ancak herhangi bir değer atamadık.
+console.log("Name:", name); // Output: undefined
+
+function sayHello(greeting) {
+    console.log("Greeting:", greeting); // Greeting parametresine herhangi bir değer atamadığımız için: Output: undefined
+}
+sayHello(); 
+
+// 3. NaN Örneği
+let result = "hello" * 5; // Sayısal olmayan bir dizeyi sayı ile çarpmaya çalışıyoruz.
+console.log("Result:", result); // Output: NaN
+
+let anotherResult = 10 / 0; // Sıfıra bölme işlemi sonucu.
+console.log("Another Result:", anotherResult); // Output: Infinity, fakat NaN değil; çünkü sıfıra bölme özel bir durumdur.
+
+if (isNaN(result)) {
+    console.log("Result is not a number!"); // NaN'ı kontrol ediyoruz.
+}
