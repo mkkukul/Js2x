@@ -28,6 +28,7 @@ console.log("Kullanıcı Bilgisi:", kullanici); // Ekrana "Kullanıcı Bilgisi: 
 
 // 2. Undefined: Bir değişken atanmadığında veya bir nesnenin özelliği tanımlanmadığında bu değeri alır.
 let yas; // Yaş değişkenini tanımladık, ancak herhangi bir değer atamadık.
+
 console.log("Yaş Değeri:", yas); // Ekrana "Yaş Değeri: undefined" yazdırılır.
 
 // 3. NaN (Not-a-Number): Matematiksel bir işlem geçersiz olduğunda bu değeri alır.
