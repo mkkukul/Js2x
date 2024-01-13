@@ -1,7 +1,9 @@
 let myLeads = ["www.awesomelead.com"]
+myLeads = JSON.stringify(myLeads)
+// myLeads = JSON.parse(myLeads)
+myLeads.push("www.epiclead.com")
 
-
-
+console.log(myLeads)
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
