@@ -1,0 +1,15 @@
+Bu JavaScript kod parçası, bir web sayfasında belirli bir HTML elementine girilen URL'leri (`inputEl` elementi ile temsil edilir) bir diziye (`myLeads`) eklemek ve bu diziyi tarayıcının yerel depolama alanına (`localStorage`) kaydetmek için kullanılır. İşte kodun adım adım amacı ve neyi öğretmeyi amaçladığı:
+
+1. **Kullanıcının Girdiğini Almak**: `inputBtn` (bir buton) üzerine tıklanınca, `inputEl` (bir input alanı) içine yazılan değer (`inputEl.value`) `myLeads` adlı bir diziye eklenir.
+   
+2. **Girdi Alanını Temizlemek**: Kullanıcının girdiği değer eklendikten sonra, input alanı (`inputEl.value`) temizlenir.
+
+3. **localStorage Kullanımı**: `localStorage.setItem()` metodu ile `myLeads` dizisi `localStorage`'a kaydedilir. Ancak bu dizi bir JavaScript dizisi olduğu için önce `JSON.stringify()` kullanılarak bir JSON formatına dönüştürülür.
+
+4. **Veriyi Konsolda Göstermek**: `console.log(localStorage.getItem("myLeads"))` ifadesi ile saklanan veriyi konsolda kontrol etmek için `localStorage`'dan `myLeads` değeri alınır ve konsola yazdırılır.
+
+5. **Öğrenilmek İstenenler**:
+   - **localStorage Kullanımı**: Tarayıcıda kalıcı veri saklamak için `localStorage`'ın nasıl kullanılacağını öğretmek.
+   - **JSON.stringify() ve JSON.parse()**: JavaScript dizilerini ve objelerini JSON formatına dönüştürmek ve JSON formatından JavaScript dizilerine veya objelerine geri dönüştürmek için `JSON.stringify()` ve `JSON.parse()` metodlarını nasıl kullanacağını öğretmek.
+
+Özetle, bu kod parçası, kullanıcının girdiği URL'leri bir diziye eklemek, bu diziyi yerel depolama alanına kaydetmek ve bu dizi üzerinde çalışırken JSON dönüşümlerini nasıl gerçekleştireceğimizi öğretmek için tasarlanmıştır.
