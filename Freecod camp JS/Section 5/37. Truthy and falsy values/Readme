@@ -25,6 +25,7 @@ if (isNaN(result)) {
 let kullanici = null; // Burada, bir kullanıcı bilgisi oluşturduk, ancak henüz bilgileri tanımlamadık.
 console.log("Kullanıcı Bilgisi:", kullanici); // Ekrana "Kullanıcı Bilgisi: null" yazdırılır.
 
+
 // 2. Undefined: Bir değişken atanmadığında veya bir nesnenin özelliği tanımlanmadığında bu değeri alır.
 let yas; // Yaş değişkenini tanımladık, ancak herhangi bir değer atamadık.
 console.log("Yaş Değeri:", yas); // Ekrana "Yaş Değeri: undefined" yazdırılır.
