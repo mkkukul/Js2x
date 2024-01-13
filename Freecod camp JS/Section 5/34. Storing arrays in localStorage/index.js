@@ -5,7 +5,8 @@ let myLeads = ["www.awesomelead.com"]
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
-
+// localStorage.getItem("myleads")
+// console.log(localStorage.setItem(myLeads))
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
