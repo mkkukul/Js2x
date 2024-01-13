@@ -32,6 +32,7 @@ let yas; // Yaş değişkenini tanımladık, ancak herhangi bir değer atamadık
 console.log("Yaş Değeri:", yas); // Ekrana "Yaş Değeri: undefined" yazdırılır.
 
 // 3. NaN (Not-a-Number): Matematiksel bir işlem geçersiz olduğunda bu değeri alır.
+
 let urunFiyati = "on" - 5; // "on" sayısal bir değil, bu nedenle geçersiz bir işlem yapılıyor.
 console.log("Ürün Fiyatı:", urunFiyati); // Ekrana "Ürün Fiyatı: NaN" yazdırılır.
 
