@@ -3,7 +3,7 @@ const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 localStorage.clear()
-JSON.parse(localStorage.getItem("myLeads"))
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"))
 console.log(leadsFromLocalStorage)
 // Get the leads from the localStorage
 // Store it in a variable, leadsFromLocalStorage
