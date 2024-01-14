@@ -1,0 +1,32 @@
+Bu JavaScript kodu, tarayıcının yerel depolama alanından kaydedilmiş bir değeri (`myLeads` adlı dizi) kontrol eder ve eğer bu değer varsa, sayfa yeniden yüklendiğinde bu değeri kullanarak bir fonksiyonu (`renderLeads`) çağırır. İşte kodun adım adım açıklaması:
+
+```javascript
+// 1. Boş bir dizi oluşturuluyor ve adı 'myLeads'.
+let myLeads = [];
+
+// 2. HTML'de belirli ID'lere sahip elementleri seçiyoruz.
+const inputEl = document.getElementById("input-el"); // Kullanıcıdan URL girişi yapılacak alan.
+const inputBtn = document.getElementById("input-btn"); // URL'nin ekleneceği buton.
+const ulEl = document.getElementById("ul-el");       // URL listesinin gösterileceği ul elementi.
+
+// 3. localStorage'dan myLeads değerini çekiyoruz ve JSON.parse ile JavaScript nesnesine dönüştürüyoruz.
+let leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+
+// 4. leadsFromLocalStorage değeri truthy (var olan bir değer) ise:
+if (leadsFromLocalStorage) {
+    // 5. myLeads dizisine leadsFromLocalStorage değerini atıyoruz.
+    myLeads = leadsFromLocalStorage;
+    
+    // 6. renderLeads fonksiyonunu çağırarak URL'leri ekrana gösteriyoruz.
+    renderLeads();
+}
+```
+
+Bu kodun amacı, tarayıcıda yerel depolama alanında saklanan `myLeads` dizisini kontrol etmek ve eğer bu değer mevcutsa, sayfa yüklendiğinde bu değeri kullanarak URL listesini ekrana göstermektir. 
+
+- **Ne**: Sayfa yüklendiğinde yerel depolamadan bir değer kontrol edilir ve bu değer kullanılarak bir URL listesi gösterilir.
+- **Nerede**: Kullanıcı bu işlemi bir web sayfasında yapar.
+- **Nasıl**: localStorage'dan myLeads değeri çekilir, bu değer kontrol edilir ve eğer varsa myLeads dizisine atanır. Sonrasında renderLeads fonksiyonu çağrılarak URL listesi gösterilir.
+- **Neden**: Kullanıcının önceki girişlerini hatırlamak ve sayfa yenilendiğinde bu girişleri göstermek için.
+- **Ne Zaman**: Sayfa yüklendiğinde bu işlem gerçekleşir.
+- **Kim**: JavaScript kodu tarafından yönetilir.
