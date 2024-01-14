@@ -10,7 +10,9 @@ if (leadsFromLocalStorage) {
     myLeads = leadsFromLocalStorage
     render(myLeads)
 }
-
+const tabs = [
+    {url:"https://www.linkedin.com/in/mkkukul/"}
+]
 // 2. Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
 
 
