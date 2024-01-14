@@ -16,7 +16,7 @@ const tabs = [
 ]
 // 2. Listen for clicks on tabBtn. Log Per's LinkedIn URL to the console
 tabBtn.addEventListener("cliclk",function(){
-    console.log(tabs[0])
+    console.log(tabs[0].url)
 })
 
 function render(leads) {
