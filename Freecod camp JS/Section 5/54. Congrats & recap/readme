@@ -1,0 +1,81 @@
+```javascript
+// Tarayıcıda açık olan URL'leri tutan dizi
+let myLeads = [];
+
+// HTML elementlerini seçmek için kullanılan değişkenler
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+const ulEl = document.getElementById("ul-el");
+const deleteBtn = document.getElementById("delete-btn");
+const tabBtn = document.getElementById("tab-btn");
+
+// localStorage'dan myLeads dizisini almak ve kullanmak üzere bir değişken
+const leadsFromLocalStorage = JSON.parse(localStorage.getItem("myLeads"));
+
+// Eğer daha önce myLeads dizisi localStorage'da kaydedilmişse, bu değeri alıp myLeads dizisine atar ve sayfada render işlemi yapar.
+if (leadsFromLocalStorage) {
+    myLeads = leadsFromLocalStorage;
+    render(myLeads);
+}
+
+// tabBtn elementine tıklandığında, chrome.tabs.query kullanılarak aktif sekmenin bilgileri alınır.
+// Bu bilgilerden URL, myLeads dizisine eklenir, localStorage güncellenir ve sayfada render işlemi yapılır.
+tabBtn.addEventListener("click", function () {
+    chrome.tabs.query({ active: true, currentWindow: true }, function (tabs) {
+        // Chrome API kullanılarak alınan sekme bilgileri
+        let activeTab = tabs[0];
+        let activeTabId = activeTab.id; // veya ihtiyaca göre kullanılabilir
+
+        // myLeads dizisine URL eklenir
+        myLeads.push(tabs[0].url);
+
+        // localStorage güncellenir
+        localStorage.setItem("myLeads", JSON.stringify(myLeads));
+
+        // Sayfada render işlemi yapılır
+        render(myLeads);
+    });
+});
+
+// render fonksiyonu: myLeads dizisindeki URL'leri alıp, HTML formatında listeler ve bu listeyi sayfada görüntüler.
+function render(leads) {
+    let listItems = "";
+    for (let i = 0; i < leads.length; i++) {
+        listItems += `
+            <li>
+                <a target='_blank' href='${leads[i]}'>
+                    ${leads[i]}
+                </a>
+            </li>
+        `;
+    }
+    ulEl.innerHTML = listItems; // HTML içeriğini günceller
+}
+
+// deleteBtn elementine çift tıklandığında, localStorage temizlenir, myLeads dizisi boşaltılır ve sayfada render işlemi yapılır.
+deleteBtn.addEventListener("dblclick", function () {
+    localStorage.clear(); // localStorage temizlenir
+    myLeads = []; // myLeads dizisi boşaltılır
+    render(myLeads); // Sayfada render işlemi yapılır
+});
+
+// inputBtn elementine tıklandığında, kullanıcının girdiği URL, myLeads dizisine eklenir, localStorage güncellenir ve sayfada render işlemi yapılır.
+inputBtn.addEventListener("click", function () {
+    myLeads.push(inputEl.value); // input değeri myLeads dizisine eklenir
+    inputEl.value = ""; // input alanı temizlenir
+    localStorage.setItem("myLeads", JSON.stringify(myLeads)); // localStorage güncellenir
+    render(myLeads); // Sayfada render işlemi yapılır
+});
+```
+
+Bu kod, bir Chrome tarayıcı eklentisinin pop-up sayfasında çalışan bir JavaScript kodu örneğidir. İlgili adımları aşağıda daha detaylı bir şekilde açıklıyorum:
+
+1. `myLeads` dizisi, tarayıcıda açık olan URL'leri tutar.
+2. HTML elementlerini seçmek için `getElementById` kullanılır.
+3. Eğer daha önce `myLeads` dizisi `localStorage`'da kaydedilmişse, bu değeri alınır ve sayfada gösterilir.
+4. `tabBtn` elementine tıklandığında, `chrome.tabs.query` kullanılarak aktif sekmenin bilgileri alınır. Bu bilgilerden URL, `myLeads` dizisine eklenir, `localStorage` güncellenir ve sayfada render işlemi yapılır.
+5. `render` fonksiyonu, `myLeads` dizisindeki URL'leri alıp HTML formatında listeler ve bu listeyi sayfada gösterir.
+6. `deleteBtn` elementine çift tıklandığında, `localStorage` temizlenir, `myLeads` diz
+
+isi boşaltılır ve sayfada render işlemi yapılır.
+7. `inputBtn` elementine tıklandığında, kullanıcının girdiği URL, `myLeads` dizisine eklenir, `localStorage` güncellenir ve sayfada render işlemi yapılır.
