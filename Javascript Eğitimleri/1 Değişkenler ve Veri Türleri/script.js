@@ -19,6 +19,6 @@
     // diller : ["İngilizce", ]
 // }
 // 
-const valueX = "34"
-const valueX2 = 34
-console.log(typeof String(valueX2))
+// const valueX = "34"
+// const valueX2 = 34
+// console.log(typeof String(valueX2))
