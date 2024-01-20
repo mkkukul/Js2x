@@ -33,3 +33,5 @@ console.log(carpma)
 const m = 30
 const bolme = m/y
 console.log(bolme)
+const n = 28
+const fix = 
