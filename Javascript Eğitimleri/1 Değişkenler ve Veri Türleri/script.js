@@ -46,5 +46,6 @@ console.log(tre)
 let ert = 6
 let ert1 ="6"
 let mx = (ert == ert1)
-let nx = ()
-console.log()
+let nx = (ert === ert1)
+console.log(mx)
+console.log(nx)
