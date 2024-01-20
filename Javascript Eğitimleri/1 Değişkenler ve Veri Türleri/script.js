@@ -30,3 +30,6 @@ const tut = y-x
 console.log(tut)
 const carpma= x*y
 console.log(carpma)
+const m = 30
+const bolme = m%y
+console.log(bolme)
