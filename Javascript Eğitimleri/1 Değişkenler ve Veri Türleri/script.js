@@ -28,4 +28,5 @@ const total = x+y
 console.log(total) 
 const tut = y-x
 console.log(tut)
-const c
+const carpma= x*y
+console.log(carpma)
