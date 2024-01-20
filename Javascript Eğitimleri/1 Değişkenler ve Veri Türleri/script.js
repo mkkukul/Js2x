@@ -41,3 +41,5 @@
 // console.log(ussu)
 let value1 = 3
 let value2 = 4
+let tre = ( value1>value2)
+console.log(tre)
