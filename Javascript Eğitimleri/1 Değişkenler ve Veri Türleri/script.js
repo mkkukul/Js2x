@@ -34,4 +34,5 @@ const m = 30
 const bolme = m/y
 console.log(bolme)
 const n = 28
-const fix = 
+const fix = n%x
+console.log(fix)
