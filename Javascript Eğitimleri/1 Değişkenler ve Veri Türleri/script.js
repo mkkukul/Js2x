@@ -21,6 +21,7 @@
 // 
 // const valueX = "34"
 // const valueX2 = 34
+// console.log(typeof Number(valueX2))
 // console.log(typeof String(valueX2))
 const x = 5
 const y = 6
@@ -36,3 +37,5 @@ console.log(bolme)
 const n = 28
 const fix = n%x
 console.log(fix)
+const ussu = x**(y-x)
+console.log(ussu)
