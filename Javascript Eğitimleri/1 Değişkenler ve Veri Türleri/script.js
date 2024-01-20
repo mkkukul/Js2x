@@ -43,3 +43,8 @@ let value1 = 3
 let value2 = 4
 let tre = ( value1>value2)
 console.log(tre)
+let ert = 6
+let ert1 ="6"
+let mx = (ert == ert1)
+let nx = ()
+console.log()
