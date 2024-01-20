@@ -22,3 +22,7 @@
 // const valueX = "34"
 // const valueX2 = 34
 // console.log(typeof String(valueX2))
+const x = 5
+const y = 6
+const total = x+y
+console.log(total) 
