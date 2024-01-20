@@ -39,3 +39,5 @@
 // console.log(fix)
 // const ussu = x**(y-x)
 // console.log(ussu)
+let value1 = 3
+let value2 = 4
