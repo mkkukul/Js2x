@@ -53,3 +53,7 @@ let tew = 44
 let wer = 55
 let tyr = (tew != wer)
 console.log(tyr)
+let wert = 44
+let werz = 44
+let qwe = (wert != werz)
+console.log()
