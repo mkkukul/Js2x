@@ -62,6 +62,9 @@ let value1 =22
 let value2 = 223
   if(value1> value2){
   console.log(hkjsahd)
-  }else if{
-    value
+  }else if (value1>=value2){
+    console.log("eşit veya büyük")
+  }else{
+    console.log("büyük değil")
   }
+  
