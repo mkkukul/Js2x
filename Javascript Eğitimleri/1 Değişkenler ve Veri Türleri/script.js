@@ -68,3 +68,5 @@ let value2 = 223
     console.log("büyük değil")
   }
   
+//  ?     
+  
