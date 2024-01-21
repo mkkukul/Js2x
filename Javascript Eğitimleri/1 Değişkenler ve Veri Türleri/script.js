@@ -94,3 +94,18 @@ let ogrenci = {
 // Eğer bir özellik yoksa undefined döner, hata almazsınız.
 let bolum = ogrenci?.bilgiler?.okul?.bolum;
 console.log(bolum); // Matematik
+
+let ogrenci = {
+    ad: "Ahmet",
+    bilgiler: {
+        yas: 20,
+        okul: {
+            ad: "Lise",
+            bolum: "Matematik"
+        }
+    }
+};
+
+// Eğer bir özellik yoksa undefined döner, hata almazsınız.
+let bolum = ogrenci?.bilgiler?.okul?.bolum;
+console.log(bolum); // Matematik
