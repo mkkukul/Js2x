@@ -49,3 +49,7 @@ let mx = (ert == ert1)
 let nx = (ert === ert1)
 console.log(mx)
 console.log(nx)
+let tew = 44
+let wer = 55
+let tyr = (tew != wer)
+console.log(tyr)
