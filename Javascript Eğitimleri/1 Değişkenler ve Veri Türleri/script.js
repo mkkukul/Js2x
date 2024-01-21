@@ -57,4 +57,7 @@
 // let werz = 44
 // let qwe = (wert != werz)
 // console.log(qwe)
-// 
+//
+let value1 =22
+let value2 = 223
+  if(vallue)
