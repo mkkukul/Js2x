@@ -60,4 +60,8 @@
 //
 let value1 =22
 let value2 = 223
-  if(vallue)
+  if(value1> value2){
+  console.log(hkjsahd)
+  }else if{
+    value
+  }
