@@ -95,3 +95,20 @@ let ogrenci = {
 let bolum = ogrenci?.bilgiler?.okul?.bolum;
 console.log(bolum); // Matematik
 
+// || (Veya - OR) Operatörü Kullanımı
+let x = true;
+let y = false;
+
+// Eğer x veya y doğru ise, bu koşul true olur.
+// Ayrıca, || operatörü soldaki ifadenin doğru olması durumunda sağdaki ifadeye bile bakmadan true döndürür (kısa devre değerlendirme).
+let resultOr = x || y;
+console.log("Veya (||) Operatörü: ", resultOr); // Bu durumda, "x veya y doğru." yazdırılır.
+
+// && (Ve - AND) Operatörü Kullanımı
+let a = true;
+let b = false;
+
+// Eğer a ve b ikisi de doğru ise, bu koşul true olur.
+// Ayrıca, && operatörü soldaki ifadenin false olması durumunda sağdaki ifadeye bile bakmadan false döndürür (kısa devre değerlendirme).
+let resultAnd = a && b;
+console.log("Ve (&&) Operatörü: ", resultAnd); // Bu durumda, "a veya b yanlış." yazdırılır.
