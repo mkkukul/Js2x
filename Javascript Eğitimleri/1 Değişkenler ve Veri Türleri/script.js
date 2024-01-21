@@ -114,3 +114,20 @@ let b = false;
 
 let resultAnd = a && b;
 console.log("Ve (&&) Operatörü: ", resultAnd); // Bu durumda, "a veya b yanlış." yazdırılır.
+
+// while Döngüsü Kullanımı
+let counterWhile = 0; // counterWhile değişkenini başlangıç değeriyle tanımla
+
+// while döngüsü: counterWhile değeri 5'ten küçük olduğu sürece devam eder
+while (counterWhile < 5) {
+    console.log("while Döngüsü - counterWhile: ", counterWhile);
+    counterWhile++; // counterWhile'ı artır
+}
+console.log("while Döngüsü Bitti\n");
+
+// for Döngüsü Kullanımı
+// i'yi 0'dan başlat; i'nin değeri 5'ten küçük olduğu sürece devam et; her adımda i'yi 1 artır
+for (let i = 0; i < 5; i++) {
+    console.log("for Döngüsü - i: ", i);
+}
+console.log("for Döngüsü Bitti");
