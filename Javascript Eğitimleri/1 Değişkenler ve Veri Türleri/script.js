@@ -101,6 +101,7 @@ let y = false;
 
 // Eğer x veya y doğru ise, bu koşul true olur.
 // Ayrıca, || operatörü soldaki ifadenin doğru olması durumunda sağdaki ifadeye bile bakmadan true döndürür (kısa devre değerlendirme).
+
 let resultOr = x || y;
 console.log("Veya (||) Operatörü: ", resultOr); // Bu durumda, "x veya y doğru." yazdırılır.
 
