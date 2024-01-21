@@ -135,6 +135,7 @@ console.log("for Döngüsü Bitti");
 // 
 // counterWhile değişkeni başlangıç değeriyle tanımlanır.
 // while döngüsü, counterWhile değeri 5'ten küçük olduğu sürece devam eder.
+
 // Döngü içinde counterWhile değeri konsola yazdırılır ve her adımda counterWhile değeri bir artırılır.
 // for Döngüsü Açıklamaları:
 // 
