@@ -67,6 +67,30 @@ let value2 = 223
   }else{
     console.log("büyük değil")
   }
-  
+
 //  ?     
-  
+let sayi = 10;
+let sonuc = (sayi > 5) ? "Büyük" : "Küçük";
+console.log(sonuc); // Bu örnekte "Büyük" çıktısı alınır.
+function topla(a, b, c) {
+    // c parametresi opsiyonel, eğer yoksa varsayılan değeri 0 olarak alır.
+    c = c || 0;
+    return a + b + c;
+}
+
+console.log(topla(2, 3));      // 5
+console.log(topla(2, 3, 5));   // 10
+let ogrenci = {
+    ad: "Ahmet",
+    bilgiler: {
+        yas: 20,
+        okul: {
+            ad: "Lise",
+            bolum: "Matematik"
+        }
+    }
+};
+
+// Eğer bir özellik yoksa undefined döner, hata almazsınız.
+let bolum = ogrenci?.bilgiler?.okul?.bolum;
+console.log(bolum); // Matematik
