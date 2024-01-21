@@ -131,3 +131,13 @@ for (let i = 0; i < 5; i++) {
     console.log("for Döngüsü - i: ", i);
 }
 console.log("for Döngüsü Bitti");
+// while Döngüsü Açıklamaları:
+// 
+// counterWhile değişkeni başlangıç değeriyle tanımlanır.
+// while döngüsü, counterWhile değeri 5'ten küçük olduğu sürece devam eder.
+// Döngü içinde counterWhile değeri konsola yazdırılır ve her adımda counterWhile değeri bir artırılır.
+// for Döngüsü Açıklamaları:
+// 
+// for döngüsü, i değişkeni 0'dan başlatılır.
+// Döngü, i değeri 5'ten küçük olduğu sürece devam eder.
+// Her adımda i değeri konsola yazdırılır ve her adımda i değeri bir artırılır.
