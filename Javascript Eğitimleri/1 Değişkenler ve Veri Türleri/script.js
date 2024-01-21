@@ -39,21 +39,22 @@
 // console.log(fix)
 // const ussu = x**(y-x)
 // console.log(ussu)
-let value1 = 3
-let value2 = 4
-let tre = ( value1>value2)
-console.log(tre)
-let ert = 6
-let ert1 ="6"
-let mx = (ert == ert1)
-let nx = (ert === ert1)
-console.log(mx)
-console.log(nx)
-let tew = 44
-let wer = 55
-let tyr = (tew != wer)
-console.log(tyr)
-let wert = 44
-let werz = 44
-let qwe = (wert != werz)
-console.log(qwe)
+// let value1 = 3
+// let value2 = 4
+// let tre = ( value1>value2)
+// console.log(tre)
+// let ert = 6
+// let ert1 ="6"
+// let mx = (ert == ert1)
+// let nx = (ert === ert1)
+// console.log(mx)
+// console.log(nx)
+// let tew = 44
+// let wer = 55
+// let tyr = (tew != wer)
+// console.log(tyr)
+// let wert = 44
+// let werz = 44
+// let qwe = (wert != werz)
+// console.log(qwe)
+// 
