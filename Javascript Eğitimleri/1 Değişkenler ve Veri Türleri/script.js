@@ -141,3 +141,13 @@ console.log("for Döngüsü Bitti");
 // for döngüsü, i değişkeni 0'dan başlatılır.
 // Döngü, i değeri 5'ten küçük olduğu sürece devam eder.
 // Her adımda i değeri konsola yazdırılır ve her adımda i değeri bir artırılır.
+// do-while Döngüsü Kullanımı
+let sayac = 0; // sayac değişkenini başlangıç değeriyle tanımla
+
+// do-while döngüsü: do bloğu içindeki kod en az bir kez çalıştırılır, sonra while koşulu kontrol edilir
+do {
+    console.log("do-while Döngüsü - Sayac: ", sayac); // do bloğu içindeki kod
+    sayac++; // sayac'ı bir artır
+} while (sayac < 5); // while koşulu: sayac değeri 5'ten küçük olduğu sürece döngü devam eder
+
+console.log("do-while Döngüsü Bitti");
