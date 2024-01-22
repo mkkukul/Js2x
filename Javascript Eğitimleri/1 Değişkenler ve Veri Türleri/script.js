@@ -259,5 +259,6 @@ function wertyFty(retyu = "Trabzon"){
    if( retyu=== "Trabzon"){
     console.log("TS")
    }
+   console.log(retyu)
 }
 wertyFty()
