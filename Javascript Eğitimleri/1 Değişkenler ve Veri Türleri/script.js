@@ -266,4 +266,4 @@ function tyu( a,b){
     return a+b;
 }
 tyu(4,5)
-console.log(tyu)
+console.log(tyu())
