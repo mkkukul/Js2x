@@ -225,3 +225,10 @@ let sonucKare = kare(4);
 
 console.log("Bölme Sonucu:", sonucBol);
 console.log("Kare Sonucu:", sonucKare);
+
+function testret(){
+    
+    console.log("treytr")
+
+}
+testret ()
