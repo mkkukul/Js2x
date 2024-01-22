@@ -226,6 +226,14 @@ let sonucKare = kare(4);
 console.log("Bölme Sonucu:", sonucBol);
 console.log("Kare Sonucu:", sonucKare);
 
+let testTy =3
+function testret(){
+    
+    console.log("treytr")
+
+}
+testret ()
+
 function testret(){
     
     console.log("treytr")
