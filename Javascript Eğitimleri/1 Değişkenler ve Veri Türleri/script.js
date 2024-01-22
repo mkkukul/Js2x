@@ -257,7 +257,7 @@ function wertyFty(retyu = "Trabzon"){
 }
 function wertyFty(retyu = "Trabzon"){
    if( retyu=== "Trabzon"){
-    console.log("TS")
+     return console.log("TS")
    }
    console.log(retyu)
 }
