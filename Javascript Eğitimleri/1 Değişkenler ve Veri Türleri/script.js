@@ -152,3 +152,76 @@ do {
 } while (sayac < 5); // while koşulu: sayac değeri 5'ten küçük olduğu sürece döngü devam eder
 
 console.log("do-while Döngüsü Bitti");
+
+
+let gun = "Cumartesi"; // Kontrol edilecek gün değişkeni
+
+// switch ifadesi: gun değişkeninin değerine göre farklı durumları kontrol et
+switch (gun) {
+    case "Pazartesi":
+        console.log("Haftanın ilk günü");
+        break; // break ifadesi, eşleşen durumun kod bloğunun sona erdiğini belirtir
+
+    case "Salı":
+        console.log("İkinci gün");
+        break;
+
+    case "Çarşamba":
+        console.log("Üçüncü gün");
+        break;
+
+    case "Perşembe":
+        console.log("Dördüncü gün");
+        break;
+
+    case "Cuma":
+        console.log("Hafta sonuna yaklaşıyor");
+        break;
+
+    case "Cumartesi":
+    case "Pazar":
+        console.log("Hafta sonu");
+        break;
+
+    default:
+        console.log("Belirsiz gün");
+}
+// FUNCTİON
+ 
+ // Function Declaration (Fonksiyon Deklarasyonu)
+function topla(a, b) {
+    // Fonksiyon içindeki kod bloğu
+    return a + b;
+}
+
+// Fonksiyon çağrısı
+let sonucTopla = topla(3, 5);
+console.log("Toplama Sonucu:", sonucTopla);
+
+
+// Function Expression (Fonksiyon İfadesi)
+const carp = function(x, y) {
+    // Fonksiyon içindeki kod bloğu
+    return x * y;
+};
+
+// Fonksiyon çağrısı
+let sonucCarp = carp(4, 6);
+console.log("Çarpma Sonucu:", sonucCarp);
+
+
+// Arrow Functions (Ok Fonksiyonları)
+const bol = (a, b) => {
+    // Arrow fonksiyonunun kod bloğu
+    return a / b;
+};
+
+// Kısa gösterim (tek satırlık ifade)
+const kare = x => x * x;
+
+// Fonksiyon çağrıları
+let sonucBol = bol(8, 2);
+let sonucKare = kare(4);
+
+console.log("Bölme Sonucu:", sonucBol);
+console.log("Kare Sonucu:", sonucKare);
