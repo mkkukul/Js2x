@@ -229,7 +229,7 @@ console.log("Kare Sonucu:", sonucKare);
 let testTy =3
 function test34(){
     let tyrt = testTy + 5
-    console.log("treytr")
+    console.log(tyrt)
 
 }
 test34 ()
