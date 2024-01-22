@@ -240,3 +240,9 @@ function testret(){
 
 }
 testret ()
+function ferTyu(name){
+    let address = name + "," + " Amerika"
+    console.log(address)
+}
+ferTyu("New York")
+ferTyu("Boston")
