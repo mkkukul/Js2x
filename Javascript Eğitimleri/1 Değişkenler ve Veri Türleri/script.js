@@ -227,12 +227,12 @@ console.log("Bölme Sonucu:", sonucBol);
 console.log("Kare Sonucu:", sonucKare);
 
 let testTy =3
-function testret(){
+function test34(){
     
     console.log("treytr")
 
 }
-testret ()
+test34 ()
 
 function testret(){
     
