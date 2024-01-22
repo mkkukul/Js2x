@@ -255,4 +255,9 @@ ferTyu2("Boston2", "Amerika2")
 function wertyFty(retyu = "Trabzon"){
     console.log(retyu)
 }
+function wertyFty(retyu = "Trabzon"){
+   if( retyu=== "Trabzon"){
+    console.log("first")
+   }
+}
 wertyFty()
