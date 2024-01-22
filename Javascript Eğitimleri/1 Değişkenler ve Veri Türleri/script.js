@@ -262,3 +262,7 @@ function wertyFty(retyu = "Trabzon"){
    console.log(retyu)
 }
 wertyFty()
+function tyu( a,b){
+    return a+ b;
+}
+tyu()
