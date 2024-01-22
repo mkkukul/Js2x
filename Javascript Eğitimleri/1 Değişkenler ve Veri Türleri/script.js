@@ -251,3 +251,8 @@ function ferTyu2(cityName, country){
 ferTyu("New York")
 ferTyu("Boston")
 ferTyu2("Boston2", "Amerika2")
+
+function wertyFty(retyu = "Trabzon"){
+    console.log(retyu)
+}
+wertyFty()
