@@ -244,5 +244,10 @@ function ferTyu(name){
     let address = name + "," + " Amerika"
     console.log(address)
 }
+function ferTyu2(cityName, country){
+    let address2 = cityName + ", " + country
+    console.log(address2)
+}
 ferTyu("New York")
 ferTyu("Boston")
+ferTyu2("Boston2", "Amerika2")
