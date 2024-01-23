@@ -268,4 +268,4 @@ function tywu( a,b){
 let rebn = tywu(4,5)
 console.log(tywu(1,2))
 console.log(rebn)
- function carB{}
+ function carB{ brand,model
