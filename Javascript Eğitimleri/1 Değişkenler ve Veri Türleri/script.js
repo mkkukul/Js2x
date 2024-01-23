@@ -269,10 +269,10 @@ let rebn = tywu(4,5)
 console.log(tywu(1,2))
 console.log(rebn)
 function carB(brand,model){
-    if (brand === BMW){
+    if (brand === "BMW"){
       return "100.000"  
     }
-    else if(brand === Mercedes){
+    else if(brand === "Mercedes"){
         return "150.000"
     }
 }
