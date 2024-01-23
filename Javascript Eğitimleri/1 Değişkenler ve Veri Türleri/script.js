@@ -271,7 +271,9 @@ console.log(rebn)
  function carB(brand,model){
     if (brand === BMW){
       return "100.000"  
-    }else if(brand === Mercedes)
+    }else if(brand === Mercedes){
+        return "150.000"
+    }
 
     }
  }
