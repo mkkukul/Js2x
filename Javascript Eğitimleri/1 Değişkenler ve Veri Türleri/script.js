@@ -276,3 +276,4 @@ function carB(brand,model){
     }
 
 }
+let firtC= carB("BMw")
