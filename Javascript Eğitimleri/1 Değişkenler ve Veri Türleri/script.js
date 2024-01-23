@@ -270,8 +270,10 @@ console.log(tywu(1,2))
 console.log(rebn)
 function carB(brand,model){
     if (brand === "BMW"){
-      if(model === 2000)
-        return "100.000"  
+      if(model === 2000){
+        return "100.000"
+      }else if(model === 2023)
+          
     }
     else if(brand === "Mercedes"){
         return "150.000"
