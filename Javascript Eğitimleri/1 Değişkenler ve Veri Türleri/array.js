@@ -40,4 +40,8 @@ let  evenNuB = numberT.filter((value)=>{
 )  
 console.log(evenNuB)
 
-let wordE
+let wordE = [ 'apple', ' orange', 'banana']
+let shortW = words.filter((value)=>{
+    return value.length < 6
+} );
+console.log(shortW)
