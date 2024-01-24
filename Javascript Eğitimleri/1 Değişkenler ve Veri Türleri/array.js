@@ -33,4 +33,5 @@ let arty = new Array(5) // 5 adet yazdırır
 arty.fill('boston')
 console.log(arty)
 // array filter
+let  numberT = [1,2,3,4,5]
 let 
