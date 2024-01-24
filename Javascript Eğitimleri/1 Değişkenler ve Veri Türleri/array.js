@@ -25,7 +25,12 @@ let check = words.every((value)=>{
     return value.length > 6
 })
 console.log(check)
-// array FileList
+// array FileList add 0 from 2 to 4
 let numbers4 = [1,2,3,4,5]
 numbers4.fill(0,2,4);
 console.log(numbers4)
+let arty = new Array(5) // 5 adet yazdırır
+arty.fill('boston')
+console.log(arty)
+// array filter
+let 
