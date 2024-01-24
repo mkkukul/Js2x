@@ -48,7 +48,12 @@ console.log(shortW)
 
 // array find 
 let numbersXc = [1,2,3,4,5]
-let found = numbers.find((value)=>{
-    return value3 > 1
+let found = numbersXc.find((value)=>{
+    return value > 3
 }) 
 console.log(found)
+let fruits = [ 'apple', ' orange', 'banana']
+let found2 = fruits.find((value)=>{
+    return value === 'banana'
+});
+console.log(found2)
