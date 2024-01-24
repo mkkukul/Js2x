@@ -18,6 +18,7 @@ let numbers2 = [2,4,6,8]
 let isEven = numbers2.every((num)=>{
     return num %2 === 0;
 })
+
 console.log(isEven)
 let words = [ "hello", `world`, 'goodbye']
 let check = words.every((value)=>{
