@@ -34,4 +34,8 @@ arty.fill('boston')
 console.log(arty)
 // array filter
 let  numberT = [1,2,3,4,5]
-let 
+let  evenNuB = numbers.filter((value)=>{
+    return value %2 === 0
+} 
+)  
+console.log(evenNuB)
