@@ -39,3 +39,5 @@ let  evenNuB = numberT.filter((value)=>{
 } 
 )  
 console.log(evenNuB)
+
+let wordE
