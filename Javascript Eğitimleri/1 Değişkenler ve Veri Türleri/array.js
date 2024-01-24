@@ -45,3 +45,10 @@ let shortW = words.filter((value)=>{
     return value.length < 6
 } );
 console.log(shortW)
+
+// array find 
+let numbersXc = [1,2,3,4,5]
+let found = numbers.find((value)=>{
+    return value3 > 1
+}) 
+console.log(found)
