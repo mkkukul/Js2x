@@ -8,10 +8,12 @@ let fruit = ["apple", "banana"]
 let vegetable = ["carrot", "broccoli"];
 let combined = fruit.concat(vegetable)
 console.log(combined)
+
 let arr1 = [1,2]
 let arr2 = [3,4]
 let mergedArray = arr1.concat(arr2)
 console.log(mergedArray)
+
 let numbers2 = [2,4,6,8]
 let isEven = numbers2.every((num)=>{
     return num %2 === 0;
