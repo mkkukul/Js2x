@@ -27,5 +27,5 @@ let check = words.every((value)=>{
 console.log(check)
 // array FileList
 let numbers4 = [1,2,3,4,5]
-numbers4.fill(0,2);
+numbers4.fill(0,2,4);
 console.log(numbers4)
