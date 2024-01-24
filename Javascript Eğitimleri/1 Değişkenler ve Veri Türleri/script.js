@@ -282,4 +282,4 @@ function carB(brand,model){
 let firtC= carB("BMW")
 let firtCd= carB("Mercedes")
 console.log(firtC)
-console.log(firtCd)
+console.log(firtCd) 
