@@ -25,3 +25,6 @@ let check = words.every((value)=>{
     return value.length > 6
 })
 console.log(check)
+// array FileList
+let numbers4 = [1,3]
+numbers4.fill(0,2)
