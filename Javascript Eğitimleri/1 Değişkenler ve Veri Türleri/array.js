@@ -60,7 +60,7 @@ let found2 = fruits.find((value)=>{
 
 console.log(found2)
 let numbersXc2 = [1,2,3,4,5]
-let index = numbersXc2.findIndex((value)=>{
+let index3 = numbersXc2.findIndex((value)=>{
     return value > 2;
 
 })
@@ -98,4 +98,6 @@ function carpVeTopla() {
 let sonuc = carpVeTopla();
 console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", sonuc);
  let colorsX = [ 'red', 'green','blue' ]
- colorsX.forEach((value), index=>)
+ colorsX.forEach((value), index=>{
+    console.log('colorX at index')
+ })
