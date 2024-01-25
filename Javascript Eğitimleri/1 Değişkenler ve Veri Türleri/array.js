@@ -68,4 +68,7 @@ let index2 = numbersXc2.findIndex((value)=>{
     return value === 2;
 
 })
-console.log(index)
+console.log(index2)
+
+let fruitsTs = [ 'apple', ' orange', 'banana']
+let findIndexOfBanana = fruitsTs.findIndex()
