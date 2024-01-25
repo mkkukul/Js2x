@@ -72,6 +72,8 @@ console.log(index2)
 
 let fruitsTs = [ 'apple', ' orange', 'banana']
 let findIndexOfBanana = fruitsTs.findIndex((value)=>{
-    return value ==='banana';
+    return value ===' orange';
 })
 console.log(findIndexOfBanana)
+let nestedArr = [ 1,[2, [3,[4]]]]
+let
