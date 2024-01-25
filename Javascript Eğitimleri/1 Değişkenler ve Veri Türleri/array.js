@@ -79,6 +79,6 @@ let nestedArr = [ 1,[2, [3,[4]]]]
 let flatArrt = nestedArr.flat(Infinity)
 console.log(flatArrt)
 let nus = [1,2,3,4,5]
-nus.forEach(()=>{
-    return
+nus.forEach((value)=>{
+    console.log(value*2)
 })
