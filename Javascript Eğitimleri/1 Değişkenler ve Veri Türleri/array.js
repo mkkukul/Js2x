@@ -71,4 +71,7 @@ let index2 = numbersXc2.findIndex((value)=>{
 console.log(index2)
 
 let fruitsTs = [ 'apple', ' orange', 'banana']
-let findIndexOfBanana = fruitsTs.findIndex()
+let findIndexOfBanana = fruitsTs.findIndex((value)=>{
+    return value ==='banana';
+})
+console.log(findIndexOfBanana)
