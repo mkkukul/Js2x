@@ -78,4 +78,5 @@ console.log(findIndexOfBanana)
 let nestedArr = [ 1,[2, [3,[4]]]]
 let flatArrt = nestedArr.flat(Infinity)
 console.log(flatArrt)
-let nus = 
+let nus = [1,2,3,4,5]
+nus
