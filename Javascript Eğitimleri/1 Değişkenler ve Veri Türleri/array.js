@@ -59,3 +59,9 @@ let found2 = fruits.find((value)=>{
 });
 
 console.log(found2)
+let numbersXc2 = [1,2,3,4,5]
+let index = numbersXc2.findIndex((value)=>{
+    return value > 2;
+
+})
+console.log(index)
