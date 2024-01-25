@@ -64,4 +64,8 @@ let index = numbersXc2.findIndex((value)=>{
     return value > 2;
 
 })
+let index2 = numbersXc2.findIndex((value)=>{
+    return value === 2;
+
+})
 console.log(index)
