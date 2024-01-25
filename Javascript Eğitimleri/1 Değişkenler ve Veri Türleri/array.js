@@ -82,3 +82,18 @@ let nus = [1,2,3,4,5]
 nus.forEach((value)=>{
     console.log(value*2)
 })
+// Çarp ve Topla Fonksiyonu
+function carpVeTopla() {
+    let toplam = 0;
+
+    for (let i = 1; i <= 5; i++) {
+        // Her bir sayıyı ayrı çarp ve toplama ekle
+        toplam += i * 2;
+    }
+
+    return toplam;
+}
+
+// Fonksiyonu çağır ve sonucu yazdır
+let sonuc = carpVeTopla();
+console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", sonuc);
