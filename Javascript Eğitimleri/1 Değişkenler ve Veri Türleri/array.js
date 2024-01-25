@@ -57,4 +57,5 @@ let fruits = [ 'apple', ' orange', 'banana']
 let found2 = fruits.find((value)=>{
     return value === 'banana'
 });
+
 console.log(found2)
