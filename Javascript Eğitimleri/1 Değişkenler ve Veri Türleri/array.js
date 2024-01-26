@@ -132,12 +132,26 @@ let sliceNy =numbers.slice(1,4)
 console.log(sliceNy)
 
 // array.slice()
-let numtersTrxer = [1,2,3,4,5]
-let removedElements = numtersTrxer.splice(1,2)
-console.log(removedElements)
-console.log(numtersTrxer)
+let numbersTrxer = [1, 2, 3, 4, 5];
 
-let colorsXs = ['red', 'green', 'blue']
-let removedColor = colorsXs.splice(1,1,'yellow')
-console.log(removedColor)
-console.log(colorsXs)
+// numbersTrxer dizisinden 1. index'ten başlayarak 2 elemanı kaldır ve removedElements'e ata
+let removedElements = numbersTrxer.splice(1, 2);
+
+// Kaldırılan elemanları yazdır
+console.log(removedElements); // [2, 3]
+
+// Kalan diziyi yazdır
+console.log(numbersTrxer); // [1, 4, 5]
+
+
+let colorsXs = ['red', 'green', 'blue'];
+
+// colorsXs dizisinden 1. index'teki 1 elemanı kaldır, yerine 'yellow' ekleyerek removedColor'a ata
+let removedColor = colorsXs.splice(1, 1, 'yellow');
+
+// Kaldırılan elemanı ve eklenen rengi yazdır
+console.log(removedColor); // ['green']
+console.log(colorsXs); // ['red', 'yellow', 'blue']
+
+
+
