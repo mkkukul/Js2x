@@ -104,3 +104,10 @@ console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", so
 //  let numter = [1,2,3,4,5]
 //  let istry = numter.includes(7)
 //  console.log(istry)
+//? Array POp
+let numters = [1,2,3,4,5]
+console.log(numters)
+let rety = numters.pop()
+
+console.log('Son eleman : ',rety)
+console.log(numters)
