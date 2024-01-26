@@ -188,9 +188,9 @@ console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", so
 //? Array POp
 
 // pop Metodu - Dizinin Son Elemanını Kaldırma
-let numbers = [1, 2, 3, 4, 5];
+let numbers345 = [1, 2, 3, 4, 5];
 
-console.log(numbers); // [1, 2, 3, 4, 5]
+console.log(numbers345); // [1, 2, 3, 4, 5]
 
 // pop metodu, dizinin son elemanını kaldırır ve kaldırılan elemanı döndürür
 let removedItem = numbers.pop();
