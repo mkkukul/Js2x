@@ -102,36 +102,64 @@ let found = numbersXc.find((value) => {
 
 console.log(found); // 4
 
+// Belirli Bir Koşulu Sağlayan İlk Elemanı Bulma (find)
+let fruits = ['apple', ' orange', 'banana'];
 
-let fruits = [ 'apple', ' orange', 'banana']
-let found2 = fruits.find((value)=>{
-    return value === 'banana'
+// 'banana' kelimesini içeren ilk elemanı bul
+let found2 = fruits.find((value) => {
+    return value === 'banana';
 });
 
-console.log(found2)
-let numbersXc2 = [1,2,3,4,5]
-let index3 = numbersXc2.findIndex((value)=>{
-    return value > 2;
+console.log(found2); // 'banana'
 
-})
-let index2 = numbersXc2.findIndex((value)=>{
+
+// Belirli Bir Koşulu Sağlayan Elemanın İndeksini Bulma (findIndex)
+let numbersXc2 = [1, 2, 3, 4, 5];
+
+// Değeri 2 olan ilk elemanın indeksini bul
+let index2 = numbersXc2.findIndex((value) => {
     return value === 2;
+});
 
-})
-console.log(index2)
+console.log(index2); // 1
 
-let fruitsTs = [ 'apple', ' orange', 'banana']
-let findIndexOfBanana = fruitsTs.findIndex((value)=>{
-    return value ===' orange';
-})
-console.log(findIndexOfBanana)
-let nestedArr = [ 1,[2, [3,[4]]]]
-let flatArrt = nestedArr.flat(Infinity)
-console.log(flatArrt)
-let nus = [1,2,3,4,5]
-nus.forEach((value)=>{
-    console.log(value*2)
-})
+// Değeri 2'den büyük ilk elemanın indeksini bul
+let index3 = numbersXc2.findIndex((value) => {
+    return value > 2;
+});
+
+console.log(index3); // 2
+
+
+// Belirli Bir Elemanın İndeksini Bulma (findIndex)
+let fruitsTs = ['apple', ' orange', 'banana'];
+
+// 'orange' kelimesinin indeksini bul
+let findIndexOfBanana = fruitsTs.findIndex((value) => {
+    return value === ' orange';
+});
+
+console.log(findIndexOfBanana); // 1
+
+
+// Gömülü Diziyi Düzleştirme (flat)
+let nestedArr = [1, [2, [3, [4]]]];
+
+// Tüm iç içe geçmiş dizileri düzleştir
+let flatArrt = nestedArr.flat(Infinity);
+
+console.log(flatArrt); // [1, 2, 3, 4]
+
+
+// Her Eleman Üzerinde İşlem Yapma (forEach)
+let nus = [1, 2, 3, 4, 5];
+
+// Her elemanı iki ile çarp ve konsola yazdır
+nus.forEach((value) => {
+    console.log(value * 2);
+});
+
+
 // Çarp ve Topla Fonksiyonu
 function carpVeTopla() {
     let toplam = 0;
