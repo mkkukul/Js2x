@@ -183,24 +183,39 @@ console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", so
 //  let istry = numter.includes(7)
 //  console.log(istry)
 //? Array POp
-let numters = [1,2,3,4,5]
-console.log(numters)
-let rety = numters.pop()
 
-console.log('Son eleman : ',rety)
-console.log(numters)
+// pop Metodu - Dizinin Son Elemanını Kaldırma
+let numbers = [1, 2, 3, 4, 5];
 
-let numtersXcvb = [1,2,3,4,5]
-let sumer = numtersXcvb.reduce((accumulator, current)=>{
-    return accumulator + current
-},0)
-console.log(sumer)
-let wordsX = [ 'hello', 'world', 'this', 'is', 'a', 'test']
-let resultXc = wordsX.reduce((accumulator, current)=>{
-    return accumulator+ ' ' + current
+console.log(numbers); // [1, 2, 3, 4, 5]
 
-},'')
-console.log(resultXc)
+// pop metodu, dizinin son elemanını kaldırır ve kaldırılan elemanı döndürür
+let removedItem = numbers.pop();
+
+console.log('Son eleman: ', removedItem); // Son eleman: 5
+console.log(numbers); // [1, 2, 3, 4]
+
+
+// reduce Metodu - Dizi Elemanlarını Toplama
+let numbersXcvb = [1, 2, 3, 4, 5];
+
+// reduce metodu, dizinin elemanlarını toplar
+let sumer = numbersXcvb.reduce((accumulator, current) => {
+    return accumulator + current;
+}, 0);
+
+console.log(sumer); // 15
+
+
+// reduce Metodu - Dizi Elemanlarını Birleştirme
+let wordsX = ['hello', 'world', 'this', 'is', 'a', 'test'];
+
+// reduce metodu, dizinin elemanlarını birleştirir
+let resultXc = wordsX.reduce((accumulator, current) => {
+    return accumulator + ' ' + current;
+}, '');
+
+console.log(resultXc); // 'hello world this is a test'
 
 
 let numtersTr = [1,2,3,4,5]
