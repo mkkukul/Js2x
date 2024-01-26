@@ -61,6 +61,7 @@ let numbers4 = [1, 2, 3, 4, 5];
 
 // 2. index'ten başlayarak 4. index'e kadar olan elemanları 0 ile doldur
 numbers4.fill(0, 2, 4);
+
 console.log(numbers4); // [1, 2, 0, 0, 5]
 
 // Belirli Bir Değeri Doldurarak Yeni Bir Dizi Oluşturma (fill)
