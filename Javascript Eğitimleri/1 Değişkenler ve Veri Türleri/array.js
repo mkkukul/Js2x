@@ -153,9 +153,13 @@ let removedColor = colorsXs.splice(1, 1, 'yellow');
 console.log(removedColor); // ['green']
 console.log(colorsXs); // ['red', 'yellow', 'blue']
 
-let numbersX2 = [1,2,3,4,5]
-let hasEvenNumber = numbers.some((value)=>{
-    return value % 2 === 0
-})
-console.log(hasEvenNumber)
+let numbersX2 = [1, 2, 3, 4, 5];
 
+// numbersX2 dizisinde en az bir çift sayı var mı?
+let hasEvenNumber = numbersX2.some((value) => {
+    return value % 2 === 0;
+});
+
+// Sonucu yazdır
+console.log(hasEvenNumber); // true
+// numbersX2 dizisinde en fazla 2 çift sayı var mı?
