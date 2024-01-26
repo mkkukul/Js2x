@@ -126,5 +126,7 @@ console.log(resultXc)
 
 
 let numtersTr = [1,2,3,4,5]
-let reverse = numtersTr.reverse();
-console.log(reverse)
+// let reverse = numtersTr.reverse();
+// console.log(reverse)
+let sliceNy =numbers.slice(1,4)
+console.log(sliceNy)
