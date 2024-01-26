@@ -117,3 +117,14 @@ let sumer = numtersXcvb.reduce((accumulator, current)=>{
     return accumulator + current
 },0)
 console.log(sumer)
+let wordsX = [ 'hello', 'world', 'this', 'is', 'a', 'test']
+let resultXc = wordsX.reduce((accumulator, current)=>{
+    return accumulator+ ' ' + current
+
+},'')
+console.log(resultXc)
+
+
+let numtersTr = [1,2,3,4,5]
+let reverse = numtersTr.reverse();
+console.log(reverse)
