@@ -1,59 +1,108 @@
-let colors = ["red", "green", "blue"]
-console.log(colors[2]) // 
-console.log(colors.at(1))
+// Dizi Elemanlarına Erişim
+let colors = ["red", "green", "blue"];
+
+// Dizinin 2. index'indeki elemanı (üçüncü eleman) al
+console.log(colors[2]); // "blue"
+
+// Dizinin 1. index'indeki elemanı (ikinci eleman) al
+console.log(colors.at(1)); // "green"
+
+
+// Negatif Index Kullanımı
 let numbers = [10, 20, 30];
-console.log(numbers.at(-1)) // son değeri alır (30)
-// array.concat ()
-let fruit = ["apple", "banana"]
+
+// Dizinin son elemanını al (negatif index kullanımı)
+console.log(numbers.at(-1)); // 30
+
+
+// Dizi Birleştirme (concat)
+let fruit = ["apple", "banana"];
 let vegetable = ["carrot", "broccoli"];
-let combined = fruit.concat(vegetable)
-console.log(combined)
 
-let arr1 = [1,2]
-let arr2 = [3,4]
-let mergedArray = arr1.concat(arr2)
-console.log(mergedArray)
+// İki diziyi birleştir ve yeni bir dizi oluştur
+let combined = fruit.concat(vegetable);
+console.log(combined); // ["apple", "banana", "carrot", "broccoli"]
 
-let numbers2 = [2,4,6,8]
-let isEven = numbers2.every((num)=>{
-    return num %2 === 0;
-})
 
-console.log(isEven)
+// Dizileri Birleştirme (concat)
+let arr1 = [1, 2];
+let arr2 = [3, 4];
 
-let words = [ "hello", `world`, 'goodbye']
-let check = words.every((value)=>{
-    return value.length > 6
-})
-console.log(check)
-// array FileList add 0 from 2 to 4
-let numbers4 = [1,2,3,4,5]
-numbers4.fill(0,2,4);
-console.log(numbers4)
-let arty = new Array(5) // 5 adet yazdırır
-arty.fill('boston')
-console.log(arty)
-// array filter
-let  numberT = [1,2,3,4,5]
-let  evenNuB = numberT.filter((value)=>{
-    return value %2 === 0
-} 
-)  
-console.log(evenNuB)
+// İki ayrı diziyi birleştir
+let mergedArray = arr1.concat(arr2);
+console.log(mergedArray); // [1, 2, 3, 4]
 
-let wordE = [ 'apple', ' orange', 'banana']
-let shortW = words.filter((value)=>{
-    return value.length < 6
-} );
-console.log(shortW)
 
-// array find 
-let numbersXc = [1,2,3,4,5]
-let found = numbersXc.find((value)=>{
-    return value > 3
-})
- 
-console.log(found)
+// Her Elemanın Belirli Bir Koşulu Sağlaması (every)
+let numbers2 = [2, 4, 6, 8];
+
+// Dizideki her elemanın çift olup olmadığını kontrol et
+let isEven = numbers2.every((num) => {
+    return num % 2 === 0;
+});
+
+// Eğer her eleman çiftse, sonuç true olur
+console.log(isEven); // true
+
+// Her Elemanın Belirli Bir Koşulu Sağlaması (every)
+let words = ["hello", `world`, 'goodbye'];
+
+// Dizideki her kelimenin uzunluğu 6'dan büyük mü diye kontrol et
+let check = words.every((value) => {
+    return value.length > 6;
+});
+
+// Eğer her kelimenin uzunluğu 6'dan büyükse, sonuç true olur
+console.log(check); // false
+
+
+// Belirli Aralıktaki Elemanları Değiştirme (fill)
+let numbers4 = [1, 2, 3, 4, 5];
+
+// 2. index'ten başlayarak 4. index'e kadar olan elemanları 0 ile doldur
+numbers4.fill(0, 2, 4);
+console.log(numbers4); // [1, 2, 0, 0, 5]
+
+// Belirli Bir Değeri Doldurarak Yeni Bir Dizi Oluşturma (fill)
+let arty = new Array(5);
+
+// 5 elemanlı bir dizi oluştur ve tüm elemanları 'boston' ile doldur
+arty.fill('boston');
+console.log(arty); // ['boston', 'boston', 'boston', 'boston', 'boston']
+
+
+// Belirli Koşulu Sağlayan Elemanları Seçme (filter)
+let numberT = [1, 2, 3, 4, 5];
+
+// Sadece çift sayıları seç
+let evenNuB = numberT.filter((value) => {
+    return value % 2 === 0;
+});
+
+console.log(evenNuB); // [2, 4]
+
+
+let wordE = ['apple', 'orange', 'banana'];
+
+// Uzunluğu 6'dan küçük olan kelimeleri seç
+let shortW = wordE.filter((value) => {
+    return value.length < 6;
+});
+
+console.log(shortW); // ['apple']
+
+
+// Belirli Bir Koşulu Sağlayan İlk Elemanı Bulma (find)
+let numbersXc = [1, 2, 3, 4, 5];
+
+// 3'ten büyük ilk sayıyı bul
+let found = numbersXc.find((value) => {
+    return value > 3;
+});
+
+console.log(found); // 4
+
+
 let fruits = [ 'apple', ' orange', 'banana']
 let found2 = fruits.find((value)=>{
     return value === 'banana'
