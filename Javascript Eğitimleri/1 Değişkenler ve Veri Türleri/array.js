@@ -130,3 +130,9 @@ let numtersTr = [1,2,3,4,5]
 // console.log(reverse)
 let sliceNy =numbers.slice(1,4)
 console.log(sliceNy)
+
+// array.slice()
+let numtersTrxer = [1,2,3,4,5]
+let removedElements = numtersTrxer.splice(1,2)
+console.log(removedElements)
+console.log(numtersTrxer)
