@@ -136,3 +136,8 @@ let numtersTrxer = [1,2,3,4,5]
 let removedElements = numtersTrxer.splice(1,2)
 console.log(removedElements)
 console.log(numtersTrxer)
+
+let colorsXs = ['red', 'green', 'blue']
+let removedColor = colorsXs.splice(1,1,'yellow')
+console.log(removedColor)
+console.log(colorsXs)
