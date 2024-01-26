@@ -193,6 +193,7 @@ console.log(numbers); // [1, 2, 3, 4, 5]
 let removedItem = numbers.pop();
 
 console.log('Son eleman: ', removedItem); // Son eleman: 5
+
 console.log(numbers); // [1, 2, 3, 4]
 
 
