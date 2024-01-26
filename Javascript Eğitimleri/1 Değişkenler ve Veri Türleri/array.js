@@ -20,6 +20,7 @@ let isEven = numbers2.every((num)=>{
 })
 
 console.log(isEven)
+
 let words = [ "hello", `world`, 'goodbye']
 let check = words.every((value)=>{
     return value.length > 6
