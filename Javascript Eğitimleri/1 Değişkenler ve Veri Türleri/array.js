@@ -111,3 +111,9 @@ let rety = numters.pop()
 
 console.log('Son eleman : ',rety)
 console.log(numters)
+
+let numtersXcvb = [1,2,3,4,5]
+let sumer = numtersXcvb.reduce((accumulator, current)=>{
+    return accumulator + current
+},0)
+console.log(sumer)
