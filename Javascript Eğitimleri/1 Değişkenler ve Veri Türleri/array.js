@@ -99,5 +99,5 @@ let sonuc = carpVeTopla();
 console.log("1'den 5'e kadar olan sayıları ayrı 2 ile çarpıp toplamı:", sonuc);
  let colorsX = [ 'red', 'green','blue' ]
  colorsX.forEach((value), index=>{
-    console.log('colorX at index')
+    console.log(`colorX at index ${index}: ${value}`)
  })
