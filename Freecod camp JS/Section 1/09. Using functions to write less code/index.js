@@ -1,7 +1,6 @@
 // Setting up the the race 🏎 🏎 🏎
 
 
-
 // function countdown (){
     // console.log(5)
     // console.log(4)
