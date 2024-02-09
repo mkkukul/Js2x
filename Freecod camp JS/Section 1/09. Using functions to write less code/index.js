@@ -1,5 +1,13 @@
 // Setting up the the race 🏎 🏎 🏎
 
+function countdown() {
+    console.log(5); // 5'i konsola yazdırır
+    console.log(4); // 4'ü konsola yazdırır
+    console.log(3); // 3'ü konsola yazdırır
+    console.log(2); // 2'yi konsola yazdırır
+    console.log(1); // 1'i konsola yazdırır
+}
+
 
 // function countdown (){
     // console.log(5)
