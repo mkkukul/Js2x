@@ -18,6 +18,11 @@ function save() {
     console.log(count);
 }
 
+//! Bu kod, let countEl = document.getElementById("count-el") ifadesiyle bir HTML belgesindeki bir elementi seçer ve bu elementi countEl değişkenine atar. let count = 0 ifadesiyle bir sayacı değişkeni tanımlanır ve başlangıç değeri sıfırlanır. increment fonksiyonu, her çağrıldığında sayacı bir artırır (count = count + 1) ve artırılmış değeri countEl elementinin metin içeriği olarak ayarlar (countEl.innerText = count). save fonksiyonu ise her çağrıldığında mevcut sayacın değerini konsola kaydeder (console.log(count)). Kodun içindeki yorum satırları, her adımın ne yaptığını açıklar.
+
+
+
+
 
 
 // let countEl = document.getElementById("count-el")
