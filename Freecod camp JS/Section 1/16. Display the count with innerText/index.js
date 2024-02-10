@@ -1,11 +1,11 @@
 
-let countEl = document.getElementById("count-el"); // "count-el" ID'sine sahip HTML elementini seçer ve countEl değişkenine atar
-
-let count = 0; // Bir sayacı değişkeni tanımlar ve sıfıra ayarlar
+// count-el elementini seçin ve countEl değişkenine atayın
+let count = 0; // Bir sayacı değişkeni tanımlayın ve sıfıra ayarlayın
 
 function increment() {
-    count = count + 1; // Sayacı bir artırır
-    countEl.innerText = count; // Güncellenmiş sayacı, seçilen HTML elementinin metin içeriği olarak ayarlar
+    count = count + 1; // Sayacı bir artırın
+    console.log(count); // Artırılmış sayacı konsola yazdırın
+    // countEl'in innerText özelliğini sayaca ayarlayın
 }
 
 
