@@ -9,6 +9,12 @@
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
+let count = 0; // Bir sayacı değişkeni oluştur ve sıfıra ayarla
+
+function increment() {
+    count = count + 1; // Değişkeni bir artır
+    console.log(count); // Güncellenmiş değeri konsola yazdır
+}
 
 
 // let count =0
