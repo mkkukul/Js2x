@@ -9,3 +9,14 @@
 // let greeting = "Welcome Back "
 
 // welcomeEl.innerText = greeting + name
+// HTML içindeki bir paragraf öğesine erişir ve welcomeEl değişkenine atar
+let welcomeEl = document.getElementById("welcome-el");
+
+// İsim bilgisini içeren bir dize oluşturur ve name değişkenine atar
+let name = "Per Harald Borgen";
+
+// Karşılama mesajını içeren bir dize oluşturur ve greeting değişkenine atar
+let greeting = "Welcome Back ";
+
+// HTML paragraf öğesinin metin içeriğini, karşılama mesajı ve isimle birleştirerek günceller
+welcomeEl.innerText = greeting + name;
