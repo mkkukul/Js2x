@@ -15,6 +15,7 @@ function toplam() {
   console.log(toplam); // Oluşturulan dizeyi konsola yazdır
 }
 
+// Bu kod öncelikle bir sayı ve bir dizeyi birleştirerek bir selamlama mesajı oluşturur. Daha sonra, iki dizeyi birleştirerek toplam bir dize oluşturur. Son olarak, bir fonksiyon tanımlar ve bu fonksiyon, iki dizeyi birleştirerek bir dize oluşturur ve bunu konsola yazdırır. Ancak, bu kodun işlevselliği çakışır, çünkü 'toplam' adında bir değişken ve 'toplam' adında bir fonksiyon tanımlanmıştır. Bu nedenle, fonksiyonun adını değiştirmek veya değişkenin adını değiştirmek, bu çakışmayı düzeltebilir.
 
 
 // let name = 42
