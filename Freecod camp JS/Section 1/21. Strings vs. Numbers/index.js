@@ -1,3 +1,20 @@
+let name = 42; // Bir sayı olan 'name' değişkeni tanımla
+let greeting = "Hi, my name is "; // Bir selamlama ifadesini içeren 'greeting' değişkeni tanımla
+let myGreeting = greeting + name; // 'greeting' ile 'name' değişkenini birleştirerek yeni bir mesaj oluştur
+
+console.log(myGreeting); // Oluşturulan selamlama mesajını konsola yazdır
+
+let points = "4"; // Bir dize olarak puanları temsil eden 'points' değişkeni tanımla
+let bonusPoints = "10"; // Bir dize olarak bonus puanları temsil eden 'bonusPoints' değişkeni tanımla
+let toplam = points + bonusPoints; // 'points' ve 'bonusPoints' değişkenlerini birleştirerek yeni bir dize oluştur
+
+console.log(toplam); // Oluşturulan dizeyi konsola yazdır
+
+function toplam() {
+  toplam = points + bonusPoints; // 'points' ve 'bonusPoints' değişkenlerini birleştirerek yeni bir dize oluştur
+  console.log(toplam); // Oluşturulan dizeyi konsola yazdır
+}
+
 
 
 // let name = 42
