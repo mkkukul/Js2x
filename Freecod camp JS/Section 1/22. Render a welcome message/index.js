@@ -8,6 +8,8 @@
 // let name = "Per Harald Borgen"
 // let greeting = "Welcome Back "
 
+
+
 // welcomeEl.innerText = greeting + name
 // HTML içindeki bir paragraf öğesine erişir ve welcomeEl değişkenine atar
 let welcomeEl = document.getElementById("welcome-el");
