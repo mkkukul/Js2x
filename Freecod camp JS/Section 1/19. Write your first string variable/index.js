@@ -1,3 +1,12 @@
+let username = "  per"; // Kullanıcı adını içeren bir değişken tanımla
+
+let message = "You have tree new notifications"; // Bildirim mesajını içeren bir değişken tanımla
+
+// Kullanıcı adı ve bildirim mesajını birleştirerek bir ileti oluştur
+let messageToUser = message + ", " + username + "!";
+
+// Oluşturulan iletiyi konsola yazdır
+console.log(messageToUser);
 
 
 
