@@ -16,7 +16,7 @@ function increment() {
 function save() {
     console.log(count);
 }
-
+Bu kod, increment() fonksiyonunda artırma işlemini count += 1 ifadesiyle gerçekleştirir. Bu, count değişkenine 1 ekler ve sonucu tekrar count değişkenine atar. Sonra, countEl.innerText ile sayacın güncellenmiş değeri sayfa üzerinde görüntülenir.
 
 
 
