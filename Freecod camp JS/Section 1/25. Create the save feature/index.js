@@ -23,6 +23,11 @@ function save() {
     console.log(count);
 }
 
+Bu kod, save() fonksiyonunda, sayaç değerini bir dizeye dönüştürür ve sonuna bir tire işareti ekler. Ardından, bu yeni değeri saveEl öğesinin mevcut içeriğine ekler, böylece her çağrıldığında mevcut sayaç değerinin bir kopyası kaydedilir.
+
+
+
+
 
 
 
