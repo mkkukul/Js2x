@@ -12,6 +12,6 @@
 //     saveEl.textContent += countStr
 // }
 
-// // Google:
-// // innerText alternative mdn
-// // 
+//  Google:
+//  innerText alternative mdn
+//  
