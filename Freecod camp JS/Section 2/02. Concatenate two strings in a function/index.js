@@ -1,3 +1,15 @@
+// name ve greeting değişkenlerini oluştur
+let name = "Linda";
+let greeting = "Hi there";
+
+// full adında bir fonksiyon tanımla
+function full() {
+    // Konsola selamlama mesajını ve ismi yazdır
+    console.log(greeting + ", " + name + "!");
+}
+
+// full fonksiyonunu çağır, böylece konsola "Hi there, Linda!" yazısı yazdırılır
+full();
 
 
 
