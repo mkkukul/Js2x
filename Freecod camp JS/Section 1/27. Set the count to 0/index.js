@@ -15,7 +15,8 @@ function save() {
 }
 
 
-
+//! Bu kod parçacığı, HTML'deki belirli öğeleri seçer, bir sayacı yönetir ve sayacın değerini kullanarak işlemler yapar. increment fonksiyonu sayacı bir artırır ve bu değeri sayfa üzerindeki bir öğeye yansıtır. save fonksiyonu ise sayacın değerini bir metin öğesine ekler ve daha sonra sayacı sıfırlar.
+// 
 
 
 // let saveEl = document.getElementById("save-el")
