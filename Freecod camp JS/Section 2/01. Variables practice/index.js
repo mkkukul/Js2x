@@ -1,4 +1,6 @@
 // Create two variables, firstName and lastName
+
+
 let firstName = "Mustafa"
 let lastName = "Kemal"
 let fullName = firstName + " " + lastName
