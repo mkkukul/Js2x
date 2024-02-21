@@ -4,7 +4,7 @@
 // let name = "Linda"
 // let greeting = "Hi there"
 
-// // Create a function that logs out "Hi there, Linda!" when called
+// Create a function that logs out "Hi there, Linda!" when called
 // function full(){
 
 //     console.log(greeting+ " "+ name+"!");
