@@ -4,6 +4,7 @@
 
 
 
+
 // let errorParagraph = document.getElementById("error")
 // console.log(errorParagraph)
 // function purchase(){
