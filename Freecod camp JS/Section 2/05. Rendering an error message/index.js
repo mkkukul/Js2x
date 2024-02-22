@@ -14,7 +14,7 @@ function purchase() {
 //  console.log(errorParagraph);: Seçilen paragraf elementini konsola yazdırır. Bu, seçimin doğru olup olmadığını kontrol etmek için kullanılabilir.
 //  function purchase() { ... }: purchase adında bir fonksiyon tanımlar. Bu fonksiyon, bir düğmeye tıklandığında çalıştırılacak olan işlevi içerir.
 //  console.log("button clicked");: Düğmeye tıklama olayının gerçekleştiğini belirtmek için konsola "button clicked" mesajını yazdırır.
-// // // // errorParagraph.textContent = "Something went wrong, please try again";: errorParagraph adlı paragraf elementinin metin içeriğini değiştirir. Böylece, bir hata durumunda kullanıcıya uygun bir mesaj görüntülenir.
+//  errorParagraph.textContent = "Something went wrong, please try again";: errorParagraph adlı paragraf elementinin metin içeriğini değiştirir. Böylece, bir hata durumunda kullanıcıya uygun bir mesaj görüntülenir.
 // 
 
 // let errorParagraph = document.getElementById("error")
