@@ -20,6 +20,27 @@ document.getElementById("num2-el").textContent = num2;
 // Render the result of the calculation in the paragraph with id="sum-el"
 
 
+let sumEl = document.getElementById("sum-el"); // "sum-el" id'ye sahip HTML elementini alır
+
+function add(){
+    let result = num1 + num2; // num1 ve num2 değişkenlerinin toplamı hesaplanır
+    sumEl.textContent = " Sum: " + result; // Sonuç, "sum-el" id'ye sahip HTML elementinin metin içeriğine yazılır
+}
+
+function subtract(){
+    let result = num1 - num2; // num1'den num2 çıkarılır
+    sumEl.textContent = " Sum: " + result; // Sonuç, "sum-el" id'ye sahip HTML elementinin metin içeriğine yazılır
+}
+
+function divide(){
+    let result = num1 / num2; // num1 num2'ye bölünür
+    sumEl.textContent = " Sum: " + result; // Sonuç, "sum-el" id'ye sahip HTML elementinin metin içeriğine yazılır
+}
+
+function multiply(){
+    let result = num1 * num2; // num1 ve num2 çarpılır
+    sumEl.textContent = " Sum: " + result; // Sonuç, "sum-el" id'ye sahip HTML elementinin metin içeriğine yazılır
+}
 
 
 
