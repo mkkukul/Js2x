@@ -1,3 +1,14 @@
+let num1 = 8; // num1 değişkenine 8 değeri atanır
+let num2 = 2; // num2 değişkenine 2 değeri atanır
+
+// HTML belgesindeki "num1-el" id'ye sahip elementin metin içeriği num1 değişkeninin değeriyle güncellenir
+document.getElementById("num1-el").textContent = num1;
+
+// HTML belgesindeki "num2-el" id'ye sahip elementin metin içeriği num2 değişkeninin değeriyle güncellenir
+document.getElementById("num2-el").textContent = num2;
+
+
+
 // let num1 = 8
 // let num2 = 2
 // document.getElementById("num1-el").textContent = num1
