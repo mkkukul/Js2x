@@ -6,6 +6,14 @@ let age = 19
 // if less than 21 -> "You can not enter the club!"
 // else            -> "Welcome!"
 
+if (age <= 20) {
+    console.log("You can not enter the club!😐"); // Yaş 20 veya daha küçükse, "Kulübe giremezsiniz!" mesajı görüntülenir
+} else {
+    console.log("Welcome"); // Yaş 20'den büyükse, "Hoş geldiniz" mesajı görüntülenir
+}
+
+
+
 // if (age <= 20) {
     // console.log("You can not enter the club!😐")
 // } else {
