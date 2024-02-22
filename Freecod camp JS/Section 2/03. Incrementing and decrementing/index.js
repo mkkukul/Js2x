@@ -24,7 +24,6 @@ console.log(myPoints); // 10
 
 
 
-
 // let myPoints = 3
 
 // Create two functions, add3Points() and remove1Point(), and have them
