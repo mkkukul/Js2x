@@ -24,6 +24,8 @@ if (age < 6) {
 
 
 
+
+
 // if(age < 6 ){
 //     console.log("Free")
 // } else if (age<18){
