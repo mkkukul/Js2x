@@ -22,8 +22,12 @@ if (age < 6) {
 }
 
 
-
-
+// !Eğer yaş 6'dan küçükse, ücretsiz olarak kabul edilir.
+// !Eğer yaş 6 ile 18 arasındaysa, "Çocuk İndirimi" uygulanır.
+// !Eğer yaş 18 ile 27 arasındaysa, "Öğrenci İndirimi" uygulanır.
+// !Eğer yaş 27 ile 67 arasındaysa, tam fiyat alınır.
+// !Eğer yaş 67'den büyükse, "Yaşlı İndirimi" uygulanır.
+// 
 
 
 // if(age < 6 ){
