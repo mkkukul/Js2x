@@ -10,7 +10,10 @@ if (sum <= 20) {
 
 console.log(hasBlackJack); // hasBlackJack değişkenini konsola yazdırır
 
-
+// Eğer toplam 20'den küçük veya eşitse, "Yeni bir kart çekmek ister misiniz?" mesajı görüntülenir.
+//  Eğer toplam 21'e eşitse, "Wohoo! Blackjack yaptınız!" mesajı görüntülenir ve hasBlackJack değişkeni true olarak ayarlanır.
+// Toplam ne 20'den küçük ne de 21'e eşitse, "Oyundan çıktınız!" mesajı görüntülenir.
+// hasBlackJack değişkeni, 21'e eşit olan bir toplam varsa true olur.
 
 
 // let firstCard = 10
