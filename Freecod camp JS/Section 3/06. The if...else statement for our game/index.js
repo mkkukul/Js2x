@@ -31,3 +31,6 @@ if (sum <= 20) {
 } else if (sum > 21) {
     console.log("You're out of the game! 😭"); // Toplam 21'den büyükse, "Oyundan çıktınız!" mesajı görüntülenir
 }
+// Eğer toplam 21'den küçükse, "Yeni bir kart çekmek ister misiniz?" mesajı görüntülenir.
+//  Eğer toplam 21'e eşitse, "Wohoo! Blackjack yaptınız!" mesajı görüntülenir.
+// Eğer toplam 21'den büyükse, "Oyundan çıktınız!" mesajı görüntülenir.
