@@ -10,17 +10,17 @@ let age = 55
 // the passenger will get based upon the value of the age variable
 
 if (age < 6) {
-        console.log("Ücretsiz");
-    } else if (age < 18) {
-        console.log("Çocuk İndirimi");
-    } else if (age < 27) {
-        console.log("Öğrenci İndirimi");
-    } else if (age < 67) {
-        console.log("Tam Fiyat");
-    } else {
-        console.log("Yaşlı İndirimi");
-    }
-    
+    console.log("Ücretsiz");
+} else if (age < 18) {
+    console.log("Çocuk İndirimi");
+} else if (age < 27) {
+    console.log("Öğrenci İndirimi");
+} else if (age < 67) {
+    console.log("Tam Fiyat");
+} else {
+    console.log("Yaşlı İndirimi");
+}
+
 
 
 
