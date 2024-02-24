@@ -15,7 +15,29 @@ let orangeShelf = document.getElementById("orange-shelf");
 // Create a function that puts the apples onto the appleShelf
 // and the oranges onto the orangeShelf. Use a for loop,
 // a conditional statement, and the textContent property.
-// 
+//
+
+// sortFruit() fonksiyonu tanımlanır
+function sortFruit() {
+    // Meyve dizisini döngüyle gezin
+    for (let i = 0; i < fruit.length; i++) {
+        // Eğer meyve "🍎" ise
+        if (fruit[i] === "🍎") {
+            // "appleShelf" raflarına bir "🍎" eklenir
+            appleShelf.textContent += "🍎";
+        } 
+        // Eğer meyve "🍊" ise
+        else if (fruit[i] === "🍊") {
+            // "orangeShelf" raflarına bir "🍊" eklenir
+            orangeShelf.textContent += "🍊";
+        }      
+    }
+}
+
+// Fonksiyon çağrılır
+sortFruit();
+
+
 // function sortFruit(){
     // for(let i = 0; i<fruit.length; i++){
         // if (fruit[i] === "🍎"){
