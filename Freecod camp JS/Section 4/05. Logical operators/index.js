@@ -14,3 +14,4 @@ if( dayOfMonth === 13 && weekday === "Friday"  ){
     console.log("🥹")
 }
 
+
