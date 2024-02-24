@@ -18,6 +18,8 @@ console.log(largeCountries)
 // 
 //  largeCountries.shift(): largeCountries dizisinin başındaki elemanı çıkarır. Bu işlem, dizinin başındaki ülkeyi kaldırır.
 // 
-//  largeCountries.unshift("China"): largeCountries dizisinin başına "China" adlı bir ülke ekler. Bu işlem, dizinin başına yeni bir ülke ekler.
+
+//!  largeCountries.unshift("China"): largeCountries dizisinin başına "China" adlı bir ülke ekler. Bu işlem, dizinin başına yeni bir ülke ekler.
 // 
-// console.log(largeCountries): Değiştirilmiş largeCountries dizisini konsola yazdırır. Bu işlem, dizinin güncellenmiş halini görüntüler.
+
+//! console.log(largeCountries): Değiştirilmiş largeCountries dizisini konsola yazdırır. Bu işlem, dizinin güncellenmiş halini görüntüler.
