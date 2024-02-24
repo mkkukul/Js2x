@@ -9,6 +9,16 @@ The 5 largest countries in the world:
 - Indinesia
 - Pakistan
 */
+console.log("The 5 largest countries in the world");
+// "Dünyanın en büyük 5 ülkesi" başlığını konsola yazdırır.
+
+for (let i = 0; i < largeCountries.length; i++) {
+    // largeCountries dizisinin her elemanını işlemek için bir döngü oluşturur.
+    
+    console.log("- " + largeCountries[i]);
+    // Her döngü adımında, o anki dizinin elemanını konsola yazar.
+    // "-" işareti ile başlatarak bir liste formatı oluşturur.
+}
 
 
 
