@@ -1,3 +1,11 @@
+// Bir meyve dizisi oluşturulur
+let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"];
+
+// Elmaların sergilendiği rafı temsil eden bir değişken oluşturulur ve DOM'dan "apple-shelf" ID'sine sahip öğe alınır
+let appleShelf = document.getElementById("apple-shelf");
+
+// Portakalların sergilendiği rafı temsil eden bir değişken oluşturulur ve DOM'dan "orange-shelf" ID'sine sahip öğe alınır
+let orangeShelf = document.getElementById("orange-shelf");
 
 
 // let fruit = ["🍎", "🍊", "🍎", "🍎", "🍊"]
