@@ -12,7 +12,7 @@ inputBtn.addEventListener("click", function() {
     // console.log("Button clicked!");
 });
 
-
+Bu kod, "input-el" ve "input-btn" id'lerine sahip HTML öğelerini alır ve ardından giriş düğmesine tıklandığında çalışacak bir olay dinleyicisi ekler. Ancak, henüz giriş alanından girilen veriyi alıp "myLeads" dizisine eklemez. Bu sadece tıklama olayını dinler.
 
 
 // Create two variables:
