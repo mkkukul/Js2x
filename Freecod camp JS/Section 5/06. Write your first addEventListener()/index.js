@@ -1,3 +1,11 @@
+// 1. DOM'dan kutuyu al ve bir değişkende sakla
+let box = document.getElementById("box");
+
+// 2. Kutuya bir tıklama olay dinleyicisi ekle
+box.addEventListener("click", function(){
+    // 3. Kutuya tıklandığında "Kutuyu açmak istiyorum!" mesajını konsola yazdır
+    console.log("I want to open the box!");
+})
 
 
 
