@@ -1,8 +1,8 @@
-// // If possible, use const. If not, use let.
+//  If possible, use const. If not, use let.
 
-// // Which variables below should be changed from let to const?
+//  Which variables below should be changed from let to const?
 
-// // The customer wants to order some stuff. Here are the details:
+//  The customer wants to order some stuff. Here are the details:
 // const basePrice = 520
 // const discount = 120
 // let shippingCost = 12
