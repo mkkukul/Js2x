@@ -8,7 +8,7 @@
 // let shippingCost = 12
 // let shippingTime = "5-12 days"
 
-// // Whops! Turns out the shipping will be a bit more complex
+//  Whops! Turns out the shipping will be a bit more complex
 // shippingCost = 15
 // shippingTime = "7-14 days"
 
