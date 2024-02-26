@@ -1,3 +1,14 @@
+let myLeads = []; // Boş bir dizi oluşturuldu
+const inputEl = document.getElementById("input-el");
+const inputBtn = document.getElementById("input-btn");
+
+// Giriş düğmesine tıklandığında, giriş alanından alınan değeri myLeads dizisine ekle
+inputBtn.addEventListener("click", function() {
+    // Giriş alanından alınan değeri myLeads dizisine ekleyin
+    myLeads.push(inputEl.value);
+    // Güncellenmiş diziyi konsola yazdır
+    console.log(myLeads);
+});
 
 
 
