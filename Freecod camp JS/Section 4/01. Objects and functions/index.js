@@ -1,4 +1,21 @@
 
+// Kişi nesnesini oluşturun ve üç anahtar içersin: name, age ve country.
+// Kendinizi örnek olarak kullanarak, name, age ve country için değerleri ayarlayın.
+let person = { 
+    name: "Per", // İsim
+    age: 35, // Yaş
+    country: "Norway" // Ülke
+};
+
+// logData() adında bir fonksiyon oluşturun.
+// Bu fonksiyon, person nesnesini kullanarak aşağıdaki formatta bir dize oluşturur: 
+// "Per 35 yaşında ve Norway'de yaşıyor"
+function logData() {
+    console.log(person.name + " is " + person.age + " years old and lives in " + person.country);
+}
+
+// logData() fonksiyonunu çağırarak, işlevin doğru çalışıp çalışmadığını kontrol edin
+logData(); // Konsola "Per is 35 years old and lives in Norway" yazdırır
 
 
 // Create a person object that contains three keys: name, age, and county.
