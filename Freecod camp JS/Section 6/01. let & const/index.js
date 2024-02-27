@@ -1,4 +1,4 @@
-// OYUNCULARIN TANIMLANMASI
+//! OYUNCULARIN TANIMLANMASI
 const player = "Per";
 const opponent = "Nick";
 const game = "AmazingFighter";
@@ -6,11 +6,11 @@ const game = "AmazingFighter";
 let points = 0; // Oyuncunun puanını tutar
 let hasWon = false; // Oyunu kazanıp kazanmadığını belirtir
 
-// OYUNUN OYNANMASI
+//! OYUNUN OYNANMASI
 points += 100; // Oyuncunun 100 puan alması
 hasWon = true; // Oyuncunun oyunu kazandığı belirtilir
 
-// KAZANANIN AÇIKLANMASI
+//! KAZANANIN AÇIKLANMASI
 if (hasWon) {
     console.log(`${player} got ${points} points and won the ${game} game!`);
 } else {
