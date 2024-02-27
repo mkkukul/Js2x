@@ -1,5 +1,5 @@
 
-// Kişi nesnesini oluşturun ve üç anahtar içersin: name, age ve country.
+//! Kişi nesnesini oluşturun ve üç anahtar içersin: name, age ve country.
 //! Kendinizi örnek olarak kullanarak, name, age ve country için değerleri ayarlayın.
 let person = { 
     name: "Per", // İsim
