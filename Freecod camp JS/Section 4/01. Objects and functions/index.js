@@ -14,7 +14,7 @@ function logData() {
     console.log(person.name + " is " + person.age + " years old and lives in " + person.country);
 }
 
-// logData() fonksiyonunu çağırarak, işlevin doğru çalışıp çalışmadığını kontrol edin
+//! logData() fonksiyonunu çağırarak, işlevin doğru çalışıp çalışmadığını kontrol edin
 logData(); // Konsola "Per is 35 years old and lives in Norway" yazdırır
 
 
