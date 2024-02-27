@@ -1,5 +1,5 @@
-// 1. İki değişken oluşturun: firstCard ve secondCard. 
-// Bu değişkenlerin değerlerini 2 ile 11 arasında rastgele sayılara ayarlayın.
+//! 1. İki değişken oluşturun: firstCard ve secondCard. 
+//! Bu değişkenlerin değerlerini 2 ile 11 arasında rastgele sayılara ayarlayın.
 let firstCard = 2; // İlk kartın değeri
 let secondCard = 11; // İkinci kartın değeri
 
