@@ -8,8 +8,8 @@ let person = {
 };
 
 //! logData() adında bir fonksiyon oluşturun.
-// Bu fonksiyon, person nesnesini kullanarak aşağıdaki formatta bir dize oluşturur: 
-// "Per 35 yaşında ve Norway'de yaşıyor"
+//! Bu fonksiyon, person nesnesini kullanarak aşağıdaki formatta bir dize oluşturur: 
+//! "Per 35 yaşında ve Norway'de yaşıyor"
 function logData() {
     console.log(person.name + " is " + person.age + " years old and lives in " + person.country);
 }
