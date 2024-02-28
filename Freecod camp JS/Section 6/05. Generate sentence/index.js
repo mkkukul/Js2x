@@ -27,5 +27,5 @@ console.log(sentence);
     // }
     // return baseString
 // }
-// // const sentence = generateSentence("highest mountains", ["Mount Everst", "K2"])
+//  const sentence = generateSentence("highest mountains", ["Mount Everst", "K2"])
 // console.log(sentence);
