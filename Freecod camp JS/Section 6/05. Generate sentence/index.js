@@ -1,3 +1,6 @@
+
+
+
 // function generateSentence(desc, arr) {
     // // let baseString = `The ${arr.length} ${desc}are`
     // for (let i= 0; i<arr.length; i++) {
