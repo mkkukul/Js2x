@@ -1,3 +1,15 @@
+let myCourses = ["Learn CSS Animations", "UI Design Fundamentals", "Intro to Clean Code"];
+
+//! Tek bir parametre alan, bu parametrenin tüm öğelerini konsola yazdıran bir fonksiyon oluşturun.
+//! myCourses'u bir argüman olarak geçirerek fonksiyonu çağırın
+
+function logItems(arr){
+    for (let i=0; i<arr.length; i++) {
+        console.log(arr[i]);
+    }
+}
+
+logItems(myCourses);
 
 
 
