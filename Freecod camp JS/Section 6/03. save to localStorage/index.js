@@ -1,6 +1,9 @@
 let myCredits = localStorage.getItem("myCredits");
 console.log(myCredits);
 
+// localStorage.setItem() yöntemiyle bir değer saklanıyor ve sonra sayfa yenilendiğinde bu değer localStorage.getItem() ile alınıyor ve konsola yazdırılıyor. Ancak, myCredits değişkeni doğrudan localStorage.getItem("myCredits") çağrısıyla atanmıyor, bu nedenle console.log(myCredits) ifadesi undefined değeri döndürecektir. Doğru şekilde çalışması için doğrudan localStorage'dan alınan değeri myCredits değişkenine atamanız gerekmektedir. İşte düzeltilmiş hali:
+// 
+
 
 
 // Save a value to localStorage
