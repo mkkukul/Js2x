@@ -23,7 +23,7 @@ janeBtn.addEventListener("click", function(){
 // 
 //!  janeBtn.addEventListener("click", function(){...}): janeBtn düğmesine bir tıklama olay dinleyicisi ekler. Tıklama algılandığında, içindeki işlev çalıştırılır.
 // 
-// console.log(data[0].score): Tıklama algılandığında, Jane'in skoru data dizisinden alınır ve konsola yazdırılır.
+//! console.log(data[0].score): Tıklama algılandığında, Jane'in skoru data dizisinden alınır ve konsola yazdırılır.
 
 let data = [
     {
