@@ -19,7 +19,11 @@ janeBtn.addEventListener("click", function(){
     console.log(data[0].score)
 })
 
-
+// const janeBtn = document.getElementById("jane-btn"): DOM'dan "jane-btn" kimliğine sahip düğmeyi alır ve janeBtn değişkenine atar.
+// 
+// // // // janeBtn.addEventListener("click", function(){...}): janeBtn düğmesine bir tıklama olay dinleyicisi ekler. Tıklama algılandığında, içindeki işlev çalıştırılır.
+// 
+// // // console.log(data[0].score): Tıklama algılandığında, Jane'in skoru data dizisinden alınır ve konsola yazdırılır.
 
 let data = [
     {
